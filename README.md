@@ -10,7 +10,7 @@ Here are the steps to run this application:
 8.  make sure mysql is install and the password for the root of mysql has been set
 9.  change the null to the password that you have for mysql in App.py's "app.config['MYSQL_DATABASE_PASSWORD'] = ''"
 10. use command "mysql -uroot -p'here is your password'<'path to the file schema.sql under the folder /scripts'"
-11. using command "pip3 install flask-mysql"
+11. use command "pip3 install flask-mysql"
 12. download module from https://pypi.python.org/pypi/Flask-Table/ and cd to the path that contains the module package and use command "pip3 install flask_table"
 13. use command "pip3 install flask_security" to install flask_security
 14. cd to the path of the asa-frontend and then use command "python3 App.py" to run on terminal and open the link that shows on the terminal
