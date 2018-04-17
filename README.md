@@ -13,4 +13,4 @@ Here are the steps to run this application:
 11. using command "pip3 install flask-mysql"
 12. download module from https://pypi.python.org/pypi/Flask-Table/ and cd to the path that contains the module package and use command "pip3 install flask_table"
 13. use command "pip3 install flask_security" to install flask_security
-14. use command "python3 App.py" to run on terminal and open the link that shows on the terminal
+14. cd to the path of the asa-frontend and then use command "python3 App.py" to run on terminal and open the link that shows on the terminal
