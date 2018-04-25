@@ -5,7 +5,6 @@ import os
 from queue import Queue
 import threading, time, datetime
 import re , sys
-
 from threading import Thread
 from flaskext.mysql import MySQL
 from flask_login import LoginManager , login_user , logout_user , current_user , login_required
@@ -15,22 +14,23 @@ from utils import  zip_dir ,zip_name
 from ASARunner import run, run_sampler
 from OutputTable import OutputTable
 app = Flask(__name__)
+app.secret_key = 'why would I tell you my secret key?'
 
 mysql = MySQL()
 login_manager = LoginManager()
 
-UPLOAD_FOLDER = './uploaded_data'
+UPLOAD_FOLDER = '/Users/qingqiany/PycharmProjects/asa-frontend/uploaded_data'
 ALLOWED_EXTENSIONS = 'csv'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-DATA_DIR = "./static/data/aec_2016_data"
-OUTPUT_DIR = "./static/data/output_data"
+DATA_DIR = "/Users/qingqiany/PycharmProjects/asa-frontend/static/data/aec_2016_data"
+OUTPUT_DIR = "/Users/qingqiany/PycharmProjects/asa-frontend/static/data/output_data"
 
 
 # MySQL configurations
 
 app.secret_key = "super secret key"
 app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = ''
+app.config['MYSQL_DATABASE_PASSWORD'] = '123456'
 app.config['MYSQL_DATABASE_DB'] = 'ASAFrontend'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 app.config['MYSQL_DATABASE_TABLE'] = 'tbl_user'
@@ -66,14 +66,14 @@ def showSignIn():
 
 @app.route("/showUserPortal")
 def showUserPortal():
-    if 'inputEmail' in session:
-        if 'user_id' in session:
-            n_jobs_completed = len(getJobsForID(user_id=session['user_id'], job_type='audit', status="'completed'"))
-            n_jobs_submitted= len(getJobsForID(user_id=session['user_id'], job_type='audit', status="'submitted'"))
-            audit_data = getJobsForID(user_id=session['user_id'], job_type='audit')
-            sampler_data = getJobsForID(user_id=session['user_id'], job_type='sampler')
+    if session.get('inputEmail'):
+        n_jobs_completed = len(getJobsForID(user_id=session['user_id'], job_type='audit', status="'completed'"))
+        n_jobs_submitted= len(getJobsForID(user_id=session['user_id'], job_type='audit', status="'submitted'"))
+        audit_data = getJobsForID(user_id=session['user_id'], job_type='audit')
+        sampler_data = getJobsForID(user_id=session['user_id'], job_type='sampler')
         return render_template('user_portal.html', dashboardHeader="Job Dashboard: "+str(session['inputEmail'])  , jobs_completed=n_jobs_completed, jobs_running=n_jobs_submitted,auditData=audit_data, samplerData=sampler_data)
-    return redirect(url_for(''))
+    else:
+        return render_template('error.html', error='Unauthorized Access')
 
 @app.route('/signUp', methods=['POST', 'GET'])
 def signUp():
@@ -103,36 +103,28 @@ def signUp():
         conn.close()
 
 
-@app.route('/signIn', methods=['POST', 'GET'])
+@app.route('/signIn', methods=['POST','GET'])
 def signIn():
     conn = mysql.connect()
     cursor = conn.cursor()
     try:
         _email = request.form['inputEmail']
         _password = request.form['inputPassword']
-
         if _email and _password:
-            cursor.execute("SELECT * from "+app.config['MYSQL_DATABASE_DB']+"."+app.config['MYSQL_DATABASE_TABLE']+" where user_username='" + _email + "'")
+            cursor.execute("SELECT * from " + app.config['MYSQL_DATABASE_DB'] + "." + app.config['MYSQL_DATABASE_TABLE'] + " where user_username='" + _email + "'")
             data = cursor.fetchone()
-            password_match = check_password_hash(data[3],str(_password))
-            print(password_match)
-            if data is not None and password_match:
-                user = User(data[1], str(data[0]))
-                login_user(user)
-                session['inputEmail'] = user.name
-                session['user_id'] = user.id
-                #return json.dumps({'message': "Logged in successfully: " })
-                return redirect(url_for('showUserPortal'))
-
+            password_match = check_password_hash(str(data[3]),str(_password))
+            #print(password_match)
+            if len(data)>0 and password_match:
+                   session['inputEmail'] = data[0]
+                   return redirect(url_for('showUserPortal'))
             else:
-                conn.commit()
-                return json.dumps({'error': 'Username or Password is wrong'})
+                   return render_template('error.html', error='Username or Password is wrong')
         else:
-            return json.dumps({'html': '<span>Enter the required fields</span>'})
+            return render_template('error.html', error='Enter the required fields')
 
     except Exception as e:
-        print(str(e))
-        return json.dumps({'error': str(e)})
+        return render_template('error.html', error=str(e))
     finally:
         cursor.close()
         conn.close()
@@ -299,9 +291,9 @@ def empty_queue():
         else:
             time.sleep(0.5)
 def save_output(run_config,  rounds='', ballots ='', data=''):
+    conn = mysql.connect()
+    cursor = conn.cursor()
     try:
-        conn = mysql.connect()
-        cursor = conn.cursor()
         _user_id= run_config['user_id']
         _job_id= run_config['job_id']
         _job_name = run_config['name']
@@ -322,9 +314,9 @@ def save_output(run_config,  rounds='', ballots ='', data=''):
         conn.close()
 
 def update_job(job_id='',status='completed', rounds='', ballots =''):
+    conn = mysql.connect()
+    cursor = conn.cursor()
     try:
-        conn = mysql.connect()
-        cursor = conn.cursor()
         print("Updatejob params: " + str((job_id,status, rounds,ballots )))
         cursor.callproc('updateJob', (job_id,status, rounds,ballots ))
         conn.commit()
@@ -385,7 +377,7 @@ def getJobsForID(user_id="", job_type="" , job_id="", status="", short_columns =
     finally:
         cursor.close()
         conn.close()
-    return []
+        return []
 
 def getNextJob():
     job_colum_names = ('job_id','user_id','job_name','job_type','status','state','seed','increment','rounds','ballots','job_data')
@@ -400,7 +392,7 @@ def getNextJob():
     finally:
         cursor.close()
         conn.close()
-    return None
+        return None
 
 def getMaxJobID():
     query = "SELECT job_id from ASAFrontend.output_data ORDER BY job_id DESC LIMIT 1;"
@@ -413,7 +405,7 @@ def getMaxJobID():
     finally:
         cursor.close()
         conn.close()
-    return None
+        return 0
 #Utils
 @app.route('/uploads/<path:filename>', methods=['GET', 'POST'])
 def download(filename):
