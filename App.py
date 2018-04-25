@@ -116,9 +116,13 @@ def signIn():
             password_match = check_password_hash(str(data[3]),str(_password))
             #print(password_match)
             if len(data)>0 and password_match:
-                   session['inputEmail'] = data[0]
-                   return redirect(url_for('showUserPortal'))
+                user = User(data[1], str(data[0]))
+                login_user(user)
+                session['inputEmail'] = user.name
+                session['user_id'] = user.id
+                return redirect(url_for('showUserPortal'))
             else:
+                   conn.commit()
                    return render_template('error.html', error='Username or Password is wrong')
         else:
             return render_template('error.html', error='Enter the required fields')
@@ -377,7 +381,7 @@ def getJobsForID(user_id="", job_type="" , job_id="", status="", short_columns =
     finally:
         cursor.close()
         conn.close()
-        return []
+    return []
 
 def getNextJob():
     job_colum_names = ('job_id','user_id','job_name','job_type','status','state','seed','increment','rounds','ballots','job_data')
@@ -392,7 +396,7 @@ def getNextJob():
     finally:
         cursor.close()
         conn.close()
-        return None
+    return None
 
 def getMaxJobID():
     query = "SELECT job_id from ASAFrontend.output_data ORDER BY job_id DESC LIMIT 1;"
@@ -405,7 +409,7 @@ def getMaxJobID():
     finally:
         cursor.close()
         conn.close()
-        return 0
+    return None
 #Utils
 @app.route('/uploads/<path:filename>', methods=['GET', 'POST'])
 def download(filename):
