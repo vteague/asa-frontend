@@ -179,7 +179,7 @@ def addSamplerJob():
     with currentJobLock:
         request.get_data()
         config = request.form.to_dict()
-        lastJobId =getMaxJobID() + 1
+        lastJobId =getMaxJobID() + 1                        #here is where the job num
         print("Audit type: " + str(config['audit_type']) )
         print("Audit config: " + str(config) )
 
@@ -290,7 +290,7 @@ def empty_queue():
                     update_job(job_id=current_job_id, status='completed' , rounds=output_info['audit_stage'], ballots=output_info['sample_size'])
                 #save_output(config, job_id = str(current_job_id), rounds=output_info['audit_stage'], ballots=output_info['sample_size'])
             except:
-                print("Unexpected error:", sys.exc_info()[0])
+                print("Unexpected error:", sys.exc_info())
                 update_job(job_id=current_job_id,status='ERROR',rounds='', ballots='')
         else:
             time.sleep(0.5)
