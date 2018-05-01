@@ -50,6 +50,7 @@ run_queue = Queue()
 currentJobLock = threading.Lock()
 auditThread = threading.Thread()
 
+#index route
 @app.route("/")
 def main():
     return render_template('index.html')

@@ -49,7 +49,6 @@ def run(state, data, seed, sample_increment, output_name , selected_ballots=None
 
 def run_sampler(state, data, seed, sample_increment, output_name , selected_ballots=None):
     """ Runs the Australian senate election audit. """
-    #print('lalala' + output_name)
     audit_recorder = AuditRecorder(state, audit_dir_name=output_name)
     SamplerWrapper(seed, state, sample_increment, data, audit_recorder, quick=True)
     return audit_recorder.get_audit_info()
