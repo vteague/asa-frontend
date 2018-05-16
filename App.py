@@ -1,12 +1,12 @@
 from flask import Flask, session,  redirect, render_template,url_for, send_file, request, json
 
-
+import traceback
 import os
 from queue import Queue
 import threading, time, datetime
 import re , sys
 from threading import Thread
-from flaskext.mysql import MySQL
+from flaskext.mysql import MySQL   #mangodb
 from flask_login import LoginManager , login_user , logout_user , current_user , login_required
 from werkzeug import generate_password_hash, check_password_hash, secure_filename
 from user import User
@@ -290,8 +290,12 @@ def empty_queue():
                     print("EMPTY QUEUE OUTPUT INFO m: " + str(output_info))
                     update_job(job_id=current_job_id, status='completed' , rounds=output_info['audit_stage'], ballots=output_info['sample_size'])
                 #save_output(config, job_id = str(current_job_id), rounds=output_info['audit_stage'], ballots=output_info['sample_size'])
+            except UnboundLocalError:
+                pass
             except:
                 print("Unexpected error:", sys.exc_info())
+                exc_type, exc_value, exc_tb = sys.exc_info()
+                traceback.print_exception(exc_type, exc_value, exc_tb)
                 update_job(job_id=current_job_id,status='ERROR',rounds='', ballots='')
         else:
             time.sleep(0.5)

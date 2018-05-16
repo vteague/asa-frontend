@@ -23,7 +23,7 @@ def run(state, data, seed, sample_increment, output_name , selected_ballots=None
         while not done:
             SamplerWrapper(seed, state, sample_increment, data, audit_recorder, quick=True)
             AuditValidator('selected_ballots.csv', audit_recorder).compare()
-            election = RealSenateElection(seed, state, data, audit_recorder=audit_recorder)
+            election = RealSenateElection(seed, state, data)
             done = audit(
                 election,
                 seed,
@@ -32,12 +32,12 @@ def run(state, data, seed, sample_increment, output_name , selected_ballots=None
             )
 
     else:
-        print("ASARUNNER... selected ballots: " + str(selected_ballots))
-        print("Output name: " + str(output_name))
-        print("Data: " + str(data))
-        print("State " + str(state))
+        # print("ASARUNNER... selected ballots: " + str(selected_ballots))
+        # print("Output name: " + str(output_name))
+        # print("Data: " + str(data))
+        # print("State " + str(state))
         AuditValidator(selected_ballots, audit_recorder).compare()
-        election = RealSenateElection(seed, state, data, audit_recorder=audit_recorder)
+        election = RealSenateElection(seed, state, data)
         audit(
             election,
             seed,
