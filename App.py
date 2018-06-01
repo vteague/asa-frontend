@@ -30,7 +30,7 @@ OUTPUT_DIR = "/Users/qingqiany/PycharmProjects/asa-frontend/static/data/output_d
 
 app.secret_key = "super secret key"
 app.config['MYSQL_DATABASE_USER'] = 'root'
-app.config['MYSQL_DATABASE_PASSWORD'] = '123456'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'root'
 app.config['MYSQL_DATABASE_DB'] = 'ASAFrontend'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 app.config['MYSQL_DATABASE_TABLE'] = 'tbl_user'
@@ -290,8 +290,6 @@ def empty_queue():
                     print("EMPTY QUEUE OUTPUT INFO m: " + str(output_info))
                     update_job(job_id=current_job_id, status='completed' , rounds=output_info['audit_stage'], ballots=output_info['sample_size'])
                 #save_output(config, job_id = str(current_job_id), rounds=output_info['audit_stage'], ballots=output_info['sample_size'])
-            except UnboundLocalError:
-                pass
             except:
                 print("Unexpected error:", sys.exc_info())
                 exc_type, exc_value, exc_tb = sys.exc_info()

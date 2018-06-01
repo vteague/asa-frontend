@@ -3,7 +3,7 @@ Here are the steps to run this application:
 1.  make sure python3 is available on your machine and the pip3 command works.
 2.  download the code of aus-senate-audit from https://github.com/berjc/aus-senate-audit
 3.  use command "pip3 install aus-senate-audit" on the terminal to install aus-senate-audit
-4.  make sure the version for dividebatur module is 0.10.1 or you can download it on https://mirrors.aliyun.com/pypi/simple/dividebatur/ and then cd to the directory and using command "python3 setup.py install"
+4.  use command "pip3 install git+https://github.com/QingqianYang/dividebatur.git@master" to install dividebatur because the original dividebatur has bug and this is the debugged version
 5.  make sure flask module is installed by using "pip3 install flask"
 6.  check if module itsdangerous and Jinja2 is installed by using command "pip3 install xxx" separately
 7.  download the Werkzeug module from https://pypi.python.org/pypi/Werkzeug
