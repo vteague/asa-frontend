@@ -5,7 +5,7 @@ This readme is based on the **macOS** system and the ASAfront system is built on
 3. Change your **database user name** or **password** in the config file
 4. use **command** "mysql -uroot -p'here is your password'<'path to the file schema.sql under the folder /migrations'" to build the database
 5. use **command** "mysql -uroot -p'here is your password'<'path to the file 2018_5_27_create_samplers_table.sql under the folder /migrations'" to create a new table
-6. **Download** the Australian senate election data from https://drive.google.com/file/d/0B2FYEn1taR3dMTVGWThtbDJuLVk/view and put the unzipped files from the data folder to data/original, for example,~/data/original/vic
+6. **Download** the Australian senate election data from https://drive.google.com/file/d/0B2FYEn1taR3dMTVGWThtbDJuLVk/view and put the unzipped files from the data folder to app/data/original, for example,~/app/data/original/vic
 7. **Download** the code of aus-senate-audit from https://github.com/berjc/aus-senate-audit
 8. use **command** "pip3 install aus-senate-audit" on the terminal to install aus-senate-audit
 9. use **command** "pip3 install git+https://github.com/QingqianYang/dividebatur.git@master" to install dividebatur because the original dividebatur has bug and this is the debugged version
