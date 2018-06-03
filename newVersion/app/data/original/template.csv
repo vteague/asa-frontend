@@ -1,0 +1,838 @@
+StateAb,Ticket,CandidateID,BallotPosition,CandidateDetails,PartyName,OrdinaryVotes,AbsentVotes,ProvisionalVotes,PrePollVotes,PostalVotes,TotalVotes
+ACT,A,29670,0,A Ticket Votes,Liberal Democratic Party,5705,99,40,373,270,6487
+ACT,A,29611,1,"DONNELLY, Matt",Liberal Democrats,778,16,10,42,38,884
+ACT,A,29612,2,"HENNINGS, Cawley",Liberal Democrats,76,2,0,5,6,89
+ACT,B,29669,0,B Ticket Votes,Secular Party of Australia,771,10,4,49,78,912
+ACT,B,28933,1,"EDWARDS, David",Secular Party of Australia,359,4,2,19,26,410
+ACT,B,28937,2,"MIHALJEVIC, Denis",Secular Party of Australia,48,1,2,4,1,56
+ACT,C,29663,0,C Ticket Votes,Australian Labor Party,73455,1120,527,3509,3640,82251
+ACT,C,28147,1,"GALLAGHER, Katy",Australian Labor Party,11942,143,64,730,619,13498
+ACT,C,28149,2,"SMITH, David",Australian Labor Party,818,6,8,48,38,918
+ACT,D,29672,0,D Ticket Votes,Rise Up Australia Party,1778,20,21,91,109,2019
+ACT,D,29514,1,"O'CONNOR, Sandie",Rise Up Australia Party,390,3,3,16,24,436
+ACT,D,29518,2,"WYATT, Jess",Rise Up Australia Party,55,0,1,4,8,68
+ACT,E,29666,0,E Ticket Votes,Sustainable Australia,1692,17,10,79,114,1912
+ACT,E,28468,1,"HAYDON, John",Sustainable Australia,566,6,6,20,47,645
+ACT,E,28469,2,"TYE, Martin",Sustainable Australia,110,1,0,5,5,121
+ACT,F,29667,0,F Ticket Votes,Liberal,68491,804,452,3622,4330,77699
+ACT,F,28773,1,"SESELJA, Zed",Liberal,4629,53,26,239,286,5233
+ACT,F,28782,2,"HIATT, Jane",Liberal,1482,12,11,76,102,1683
+ACT,G,29664,0,G Ticket Votes,Animal Justice Party,3105,58,27,163,214,3567
+ACT,G,28254,1,"FIELD, Deborah",Animal Justice Party,509,8,11,22,33,583
+ACT,G,28256,2,"MONTAGNE, Jessica",Animal Justice Party,86,3,0,9,3,101
+ACT,H,29665,0,H Ticket Votes,The Greens,26508,479,199,2038,1424,30648
+ACT,H,28306,1,"HOBBS, Christina",The Greens,8663,90,50,579,394,9776
+ACT,H,28308,2,"WAREHAM, Sue",The Greens,477,3,4,54,44,582
+ACT,I,29668,0,I Ticket Votes,Christian Democratic Party (Fred Nile Group),2192,26,15,129,151,2513
+ACT,I,28760,1,"KIM, David William",Christian Democratic Party (Fred Nile Group),441,6,3,21,27,498
+ACT,I,28763,2,"TADROS, Elizabeth",Christian Democratic Party (Fred Nile Group),66,0,1,4,5,76
+ACT,J,29671,0,J Ticket Votes,Australian Sex Party,7217,190,61,363,247,8078
+ACT,J,29390,1,"BAILEY, Steven",Australian Sex Party,1514,22,14,61,55,1666
+ACT,J,29391,2,"SWAN, Robbie",Australian Sex Party,315,5,2,13,17,352
+ACT,UG,29520,1,"HAY, Michael Gerard",VOTEFLUX.ORG | Upgrade Democracy!,624,4,3,26,41,698
+ACT,UG,28150,2,"HANSON, Anthony",Mature Australia,264,3,0,18,23,308
+NSW,A,29730,0,A Ticket Votes,Health Australia Party,39805,3086,959,1818,2316,47984
+NSW,A,28378,1,"PATTERSON, Andrew James",Health Australia Party,3817,368,129,167,162,4643
+NSW,A,28379,2,"PAFF, Leanne",Health Australia Party,418,47,11,20,31,527
+NSW,B,29745,0,B Ticket Votes,Seniors United Party of Australia,16579,595,128,784,2226,20312
+NSW,B,29066,1,"EVANS, Gillian",Seniors United Party of Australia,1385,61,14,46,132,1638
+NSW,B,29072,2,"KOLIADIS, Kerry",Seniors United Party of Australia,123,10,3,5,14,155
+NSW,B,29077,3,"OSBORNE, Chris",Seniors United Party of Australia,84,2,1,3,18,108
+NSW,C,29741,0,C Ticket Votes,Family First,41633,3029,982,1856,2357,49857
+NSW,C,28833,1,"JOBE, Phil",Family First,1962,176,52,92,144,2426
+NSW,C,28835,2,"VINCENT, Sally",Family First,364,50,8,22,30,474
+NSW,C,28837,3,"McCAFFREY, Simon",Family First,206,16,6,13,29,270
+NSW,D,29743,0,D Ticket Votes,Liberal Democrats,110349,8060,1711,5785,7257,133162
+NSW,D,28846,1,"LEYONHJELM, David",Liberal Democrats,4493,297,70,189,357,5406
+NSW,D,28850,2,"KENNARD, Sam",Liberal Democrats,342,39,10,20,28,439
+NSW,E,29732,0,E Ticket Votes,VOTEFLUX.ORG | Upgrade Democracy!,10504,385,110,275,491,11765
+NSW,E,28369,1,"LOPEZ, Steven",VOTEFLUX.ORG | Upgrade Democracy!,531,40,6,23,27,627
+NSW,E,28372,2,"SPATARO, Nathan",VOTEFLUX.ORG | Upgrade Democracy!,152,16,2,7,9,186
+NSW,F,29736,0,F Ticket Votes,Liberal & Nationals,1312722,59811,10993,47514,113453,1544493
+NSW,F,28478,1,"PAYNE, Marise",Liberal,29584,1678,280,1541,6025,39108
+NSW,F,28479,2,"SINODINOS, Arthur",Liberal,2254,150,28,139,645,3216
+NSW,F,28480,3,"NASH, Fiona",The Nationals,4095,203,27,242,1122,5689
+NSW,F,28481,4,"FIERRAVANTI-WELLS, Concetta",Liberal,830,43,9,55,175,1112
+NSW,F,28483,5,"WILLIAMS, John",The Nationals,1794,96,21,98,387,2396
+NSW,F,28484,6,"HUGHES, Hollie",Liberal,850,63,15,72,126,1126
+NSW,F,28486,7,"MOLAN, Jim",Liberal,9105,314,61,134,568,10182
+NSW,F,28487,8,"FANG, Wes",The Nationals,343,24,5,31,51,454
+NSW,F,28488,9,"OK, Sang",Liberal,460,43,14,26,76,619
+NSW,F,28489,10,"RICHARDS, Sarah",Liberal,512,37,9,31,81,670
+NSW,F,28490,11,"LEVINY, Fiona",The Nationals,327,15,3,25,50,420
+NSW,F,28491,12,"McGAHEY, Victoria",Liberal,855,56,7,47,176,1141
+NSW,G,29718,0,G Ticket Votes,,3043,211,63,111,148,3576
+NSW,G,27982,1,"VAN LIESHOUT, Teresa",,183,14,3,9,6,215
+NSW,G,27983,2,"BENNETT, Colin",,66,3,2,7,2,80
+NSW,H,29752,0,H Ticket Votes,Democratic Labour Party (DLP),42146,2815,812,1712,1703,49188
+NSW,H,29293,1,"McCORMACK, Paul",Democratic Labour Party (DLP),1872,145,41,65,70,2193
+NSW,H,29298,2,"WILLIS, Dawn",Democratic Labour Party (DLP),103,9,6,4,7,129
+NSW,I,29742,0,I Ticket Votes,Science Party/Cyclists Party,12608,987,148,598,1023,15364
+NSW,I,29108,1,"JANSSON, James",Science Party,1646,120,24,72,125,1987
+NSW,I,29109,2,"SLAVICH, Eve",Science Party,287,34,3,16,33,373
+NSW,I,29112,3,"RALPH, Ingrid",Australian Cyclists Party,397,17,3,14,52,483
+NSW,I,29114,4,"COOPER, Jai",Australian Cyclists Party,126,11,3,1,19,160
+NSW,J,29724,0,J Ticket Votes,"Shooters, Fishers and Farmers",72263,4743,1076,2512,3925,84519
+NSW,J,28165,1,"HOUSEMAN, Karl","Shooters, Fishers and Farmers",3211,236,50,116,242,3855
+NSW,J,28166,2,"JOHNSON, Peter","Shooters, Fishers and Farmers",369,33,9,15,37,463
+NSW,K,29728,0,K Ticket Votes,Voluntary Euthanasia Party,11141,624,128,421,1357,13671
+NSW,K,28376,1,"HIGSON, Shayne",Voluntary Euthanasia Party,1148,54,7,36,139,1384
+NSW,K,28377,2,"FARRELL, Janise",Voluntary Euthanasia Party,115,1,0,7,20,143
+NSW,L,29725,0,L Ticket Votes,Socialist Alliance,3772,302,85,182,164,4505
+NSW,L,28213,1,"CANNING, Ken",Socialist Alliance,584,61,8,37,40,730
+NSW,L,28214,2,"PRICE, Susan",Socialist Alliance,66,5,1,1,9,82
+NSW,L,28215,3,"LEROY-DYER, Sharlene",Socialist Alliance,28,1,0,2,3,34
+NSW,L,28217,4,"BYRNES, Howard",Socialist Alliance,28,3,0,0,0,31
+NSW,M,29748,0,M Ticket Votes,Rise Up Australia Party,6005,343,85,210,307,6950
+NSW,M,29060,1,"TUCKER, Brian Malcolm",Rise Up Australia Party,444,28,7,12,34,525
+NSW,M,29062,2,"NICHOLS, Maree",Rise Up Australia Party,58,2,0,1,2,63
+NSW,N,29738,0,N Ticket Votes,Labor,1158478,62090,15981,36359,70084,1342992
+NSW,N,28802,1,"DASTYARI, Sam",Labor,34531,2109,595,1403,3370,42008
+NSW,N,28803,2,"McALLISTER, Jenny",Labor,3608,258,82,191,422,4561
+NSW,N,28805,3,"O'NEILL, Deborah",Labor,2572,195,45,98,238,3148
+NSW,N,28809,4,"CAMERON, Doug",Labor,3078,164,39,131,443,3855
+NSW,N,28811,5,"MORIARTY, Tara",Labor,867,65,16,45,68,1061
+NSW,N,28812,6,"THOMSON, Vivien",Labor,813,56,22,26,68,985
+NSW,N,28813,7,"ZHOU, Shuo",Labor,570,34,16,36,80,736
+NSW,N,28814,8,"BANDARA, Jagath",Labor,1510,79,24,57,66,1736
+NSW,N,28815,9,"RIZVI, Miriam",Labor,405,45,7,20,34,511
+NSW,N,28816,10,"O'SULLIVAN, Mary",Labor,603,61,10,26,56,756
+NSW,N,28817,11,"HAN, Paul Yi-Wen",Labor,516,30,8,35,34,623
+NSW,N,28818,12,"COSTELLO, Alexandra",Labor,1722,134,33,65,162,2116
+NSW,O,29755,0,O Ticket Votes,Online Direct Democracy - (Empowering the People!),5329,239,65,140,238,6011
+NSW,O,29323,1,"DER SARKISSIAN, Berge Anthony",Online Direct Democracy - (Empowering the People!),243,20,1,8,20,292
+NSW,O,29324,2,"EMMETT, Arthur John",Online Direct Democracy - (Empowering the People!),35,1,2,5,7,50
+NSW,P,29719,0,P Ticket Votes,Derryn Hinch's Justice Party,21044,961,259,701,2047,25012
+NSW,P,27992,1,"STEVENS, Ken",Derryn Hinch's Justice Party,1352,56,10,38,115,1571
+NSW,P,27993,2,"WASHBOURNE, Adam",Derryn Hinch's Justice Party,104,16,3,1,13,137
+NSW,Q,29726,0,Q Ticket Votes,Jacqui Lambie Network,12755,523,105,505,1079,14967
+NSW,Q,28281,1,"THOMAS, Allan",Jacqui Lambie Network,1213,43,12,34,112,1414
+NSW,Q,28282,2,"RELPH, Bruce",Jacqui Lambie Network,41,3,2,2,2,50
+NSW,Q,28283,3,"CARR, Mitch",Jacqui Lambie Network,54,8,1,4,4,71
+NSW,R,29731,0,R Ticket Votes,Pirate Party Australia,8630,646,152,402,584,10414
+NSW,R,28380,1,"KEARNS, Sam",Pirate Party Australia,763,59,11,31,48,912
+NSW,R,28382,2,"McINTOSH, Darren",Pirate Party Australia,76,7,1,4,4,92
+NSW,S,29729,0,S Ticket Votes,Pauline Hanson's One Nation,148178,7510,1880,5013,12052,174633
+NSW,S,28318,1,"BURSTON, Brian",Pauline Hanson's One Nation,6903,360,78,249,626,8216
+NSW,S,28319,2,"MACKIN, Dean",Pauline Hanson's One Nation,547,28,8,10,97,690
+NSW,S,28322,3,"BERNIER, Christine Pamela",Pauline Hanson's One Nation,390,25,11,13,34,473
+NSW,T,29740,0,T Ticket Votes,Veterans Party,4531,253,67,243,352,5446
+NSW,T,28826,1,"BENNIE, Raymond",Veterans Party,297,23,4,17,31,372
+NSW,T,28829,2,"BRADBURY, Mark",Veterans Party,32,2,1,1,3,39
+NSW,U,29737,0,U Ticket Votes,Secular Party of Australia,1964,124,32,84,147,2351
+NSW,U,28473,1,"BRYCE, Ian Robert",Secular Party of Australia,302,16,3,16,36,373
+NSW,U,28474,2,"ELLIS, Dee",Secular Party of Australia,36,5,0,4,4,49
+NSW,V,29747,0,V Ticket Votes,CountryMinded,2361,159,46,101,175,2842
+NSW,V,29033,1,"BUCKMAN, Christopher",CountryMinded,223,7,1,9,20,260
+NSW,V,29034,2,"MORGAN, Methuen",CountryMinded,44,3,2,0,2,51
+NSW,W,29723,0,W Ticket Votes,Socialist Equality Party,2204,232,43,116,112,2707
+NSW,W,28159,1,"COGAN, James",Socialist Equality Party,150,19,5,9,15,198
+NSW,W,28160,2,"DAVIS, John",Socialist Equality Party,24,3,0,1,0,28
+NSW,X,29733,0,X Ticket Votes,Katter's Australian Party,3241,172,38,168,295,3914
+NSW,X,28383,1,"HARRIS, Tom",Katter's Australian Party,322,14,3,10,33,382
+NSW,X,28384,2,"BELCASTRO, Anthony Geno",Katter's Australian Party,16,2,1,0,1,20
+NSW,Y,29751,0,Y Ticket Votes,Palmer United Party,2197,176,43,91,111,2618
+NSW,Y,29246,1,"WRIGHTSON, Suellen Marree",Palmer United Party,117,6,2,8,7,140
+NSW,Y,29249,2,"MARKS, Robert James",Palmer United Party,20,2,0,2,5,29
+NSW,Y,29252,3,"DONNELLY, Cara Melissa",Palmer United Party,15,1,0,0,2,18
+NSW,Z,29721,0,Z Ticket Votes,Citizens Electoral Council,1372,117,31,71,73,1664
+NSW,Z,28024,1,"LAWLER, Ann",Citizens Electoral Council,171,7,3,6,19,206
+NSW,Z,28026,2,"BUTLER, Robert",Citizens Electoral Council,19,3,0,1,2,25
+NSW,AA,29758,0,AA Ticket Votes,Australian Motoring Enthusiast Party,12794,1097,236,419,685,15231
+NSW,AA,29598,1,"BRYDEN, Rob",Australian Motoring Enthusiast Party,866,72,20,38,49,1045
+NSW,AA,29599,2,"KIRKNESS, Daniel",Australian Motoring Enthusiast Party,74,5,0,0,1,80
+NSW,AB,29746,0,AB Ticket Votes,Animal Justice Party,28635,2364,511,1280,2804,35594
+NSW,AB,29053,1,"STONER, Lynda",Animal Justice Party,1874,139,21,74,191,2299
+NSW,AB,29054,2,"ELKINGTON, Gordon",Animal Justice Party,74,8,2,5,9,98
+NSW,AC,29720,0,AC Ticket Votes,The Arts Party,8392,765,133,511,604,10405
+NSW,AC,27999,1,"KELDOULIS, Barry",The Arts Party,988,93,7,60,74,1222
+NSW,AC,28001,2,"GLEDHILL, Nicholas",The Arts Party,153,8,3,8,6,178
+NSW,AD,29756,0,AD Ticket Votes,Non-Custodial Parents Party (Equal Parenting),1565,115,34,80,125,1919
+NSW,AD,29320,1,"GREENING, Eric",Non-Custodial Parents Party (Equal Parenting),141,9,3,7,5,165
+NSW,AD,29321,2,"THOMPSON, Andy",Non-Custodial Parents Party (Equal Parenting),13,1,0,2,2,18
+NSW,AE,29722,0,AE Ticket Votes,Mature Australia,2144,129,28,75,168,2544
+NSW,AE,28076,1,"QUINN, Paul",Mature Australia,153,7,3,8,9,180
+NSW,AE,28077,2,"FREARSON, Gregory",Mature Australia,70,0,1,1,9,81
+NSW,AF,29727,0,AF Ticket Votes,Christian Democratic Party (Fred Nile Group),96139,4593,1030,2687,5947,110396
+NSW,AF,28325,1,"HALL, Nella",Christian Democratic Party (Fred Nile Group),7824,401,70,273,810,9378
+NSW,AF,28326,2,"RAHME, Peter",Christian Democratic Party (Fred Nile Group),350,30,3,13,37,433
+NSW,AF,28327,3,"LIONS, Deborah Ann Jane",Christian Democratic Party (Fred Nile Group),152,8,4,4,9,177
+NSW,AF,28328,4,"PHILLIPS, Andrew",Christian Democratic Party (Fred Nile Group),198,11,5,6,32,252
+NSW,AF,28330,5,"PIPER, Tania Stephanie",Christian Democratic Party (Fred Nile Group),117,13,3,7,13,153
+NSW,AF,28331,6,"SMITH, Beth",Christian Democratic Party (Fred Nile Group),111,8,2,2,10,133
+NSW,AF,28332,7,"VINCENT, Dave",Christian Democratic Party (Fred Nile Group),65,5,1,5,2,78
+NSW,AF,28333,8,"BROADBRIDGE, Colin",Christian Democratic Party (Fred Nile Group),40,4,0,0,4,48
+NSW,AF,28335,9,"AVASALU, Rhonda",Christian Democratic Party (Fred Nile Group),29,2,1,0,4,36
+NSW,AF,28337,10,"LEA, Archie",Christian Democratic Party (Fred Nile Group),30,2,0,0,2,34
+NSW,AF,28338,11,"EL-DAGHL, Lena",Christian Democratic Party (Fred Nile Group),33,4,1,1,4,43
+NSW,AF,28340,12,"KNOX, Charles",Christian Democratic Party (Fred Nile Group),171,17,2,7,21,218
+NSW,AG,29744,0,AG Ticket Votes,Australian Sex Party,23031,2048,387,1156,1252,27874
+NSW,AG,29048,1,"FITZGERALD, Ross",Australian Sex Party,1427,102,25,83,94,1731
+NSW,AG,29049,2,"RAYE, Sue",Australian Sex Party,345,36,6,25,21,433
+NSW,AH,29757,0,AH Ticket Votes,Australian Progressives,1294,100,10,60,84,1548
+NSW,AH,29513,1,"QUARTLY, Allan",Australian Progressives,178,12,1,9,14,214
+NSW,AH,29516,2,"ROSE, Ash",Australian Progressives,44,3,1,4,3,55
+NSW,AI,29734,0,AI Ticket Votes,Nick Xenophon Team,59127,2363,358,2386,6556,70790
+NSW,AI,28492,1,"DALGLIESH, Aidan",Nick Xenophon Team,7412,223,30,250,865,8780
+NSW,AI,28452,2,"DONA, Anthony",Nick Xenophon Team,442,22,3,15,59,541
+NSW,AJ,29749,0,AJ Ticket Votes,Drug Law Reform,16197,1853,425,758,709,19942
+NSW,AJ,29301,1,"THORPE, Ray",Drug Law Reform,641,93,17,29,45,825
+NSW,AJ,29309,2,"DOWSON, Stacey",Drug Law Reform,90,10,3,2,11,116
+NSW,AK,29750,0,AK Ticket Votes,Sustainable Australia,5555,391,80,313,554,6893
+NSW,AK,29086,1,"BOURKE, William",Sustainable Australia,662,34,4,28,65,793
+NSW,AK,29087,2,"GRAHAM, Greg",Sustainable Australia,25,2,0,3,7,37
+NSW,AL,29735,0,AL Ticket Votes,The Greens,249954,19715,3117,14517,16969,304272
+NSW,AL,28428,1,"RHIANNON, Lee",The Greens,18327,1285,171,1198,1977,22958
+NSW,AL,28431,2,"OSBORNE, Michael",The Greens,1521,92,20,76,170,1879
+NSW,AL,28432,3,"OAKLEY, Jane",The Greens,580,38,4,39,73,734
+NSW,AL,28434,4,"JANARTHANA, Jananie",The Greens,254,13,10,24,43,344
+NSW,AL,28435,5,"KONTELLIS, Marika",The Greens,144,17,1,8,16,186
+NSW,AL,28459,6,"BRYANT, Gareth",The Greens,185,33,3,16,18,255
+NSW,AL,28442,7,"HO, Christina",The Greens,441,42,6,41,62,592
+NSW,AL,28444,8,"MAIDEN, Kathryn",The Greens,113,10,3,8,11,145
+NSW,AL,28445,9,"GOODLASS, Ray",The Greens,97,10,3,9,4,123
+NSW,AL,28446,10,"DONAYRE, Christine",The Greens,92,14,0,6,8,120
+NSW,AL,28447,11,"PARKER, Kate",The Greens,247,30,8,27,27,339
+NSW,AL,28448,12,"FERNANDES, Sarah",The Greens,685,69,7,60,92,913
+NSW,AM,29739,0,AM Ticket Votes,Australian Liberty Alliance,21998,969,243,784,1861,25855
+NSW,AM,28798,1,"SMITH, Kirralie Jane",Australian Liberty Alliance,2597,97,14,78,327,3113
+NSW,AM,28799,2,"ANDERSON, Gary",Australian Liberty Alliance,681,22,3,23,98,827
+NSW,AN,29753,0,AN Ticket Votes,Renewable Energy Party,6205,518,68,438,779,8008
+NSW,AN,29364,1,"BREEN, Peter",Renewable Energy Party,639,40,4,30,80,793
+NSW,AN,29365,2,"PERROW, Susan",Renewable Energy Party,105,6,2,7,15,135
+NSW,AO,29754,0,AO Ticket Votes,Marijuana (HEMP) Party,22838,2170,497,883,974,27362
+NSW,AO,29368,1,"OLBOURNE, Jason Mark",Marijuana (HEMP) Party,1586,167,39,58,57,1907
+NSW,AO,29371,2,"KATELARIS, Andrew John",Marijuana (HEMP) Party,196,19,5,9,12,241
+NSW,UG,29315,1,"GRZIC, Warren",Independent,258,22,1,11,29,321
+NSW,UG,29487,2,"WARD, Jane",Independent,108,4,1,6,22,141
+NSW,UG,29081,3,"MUNDAY, Liam",Independent,130,11,2,2,6,151
+NSW,UG,28022,4,"LAMBERT, Bryan",Independent,151,3,0,3,19,176
+NSW,UG,29317,5,"WALLACE, Peter",Independent,59,6,2,1,4,72
+NSW,UG,28698,6,"WRIGHT, James",Independent,180,19,5,11,10,225
+NSW,UG,27978,7,"RZETELSKI, Joanna",Independent,74,3,0,3,4,84
+NSW,UG,28362,8,"LIM, Danny",Independent,338,43,7,24,53,465
+NSW,UG,28425,9,"CRUZE, Maree Ann",Antipaedophile Party,76,2,1,6,11,96
+NSW,UG,29527,10,"MULLER, Stephen",Independent,28,1,0,2,5,36
+NSW,UG,28012,11,"MULLER, Peter",Independent,55,2,1,0,2,60
+NSW,UG,28216,12,"COOPER, John",Independent,63,2,1,3,11,80
+NSW,UG,28002,13,"SPRUCE-PEET-BOYD, Santa",Independent,62,4,1,1,12,80
+NSW,UG,28162,14,"ASH, David",Independent,126,14,3,3,10,156
+NSW,UG,29257,15,"SMITH, Nigel James",Independent,286,10,2,13,8,319
+NSW,UG,29490,16,"POULSEN, Ron",,31,7,1,2,6,47
+NSW,UG,29574,17,"GOOLEY, Peter",Independent,109,4,0,4,7,124
+NSW,UG,28364,18,"CHAPMAN, Nick",Independent,177,20,2,8,22,229
+NSW,UG,29600,19,"BROWN, Leonard",Independent,30,0,0,0,5,35
+NSW,UG,29362,20,"TSAY, Richelle Girado",Independent,49,1,1,2,3,56
+NT,A,29715,0,A Ticket Votes,Rise Up Australia Party,5285,96,65,206,198,5850
+NT,A,28558,1,"PILE, Jan",Rise Up Australia Party,685,16,20,28,30,779
+NT,A,28559,2,"GIMINI, Jimmy",Rise Up Australia Party,123,2,2,3,9,139
+NT,B,29717,0,B Ticket Votes,Marijuana (HEMP) Party/Australian Sex Party,3788,118,33,254,210,4403
+NT,B,29601,1,"KAVASILAS, Andrew",Marijuana (HEMP) Party,352,5,10,15,18,400
+NT,B,29602,2,"JONES, Timothy",Australian Sex Party,130,3,1,10,9,153
+NT,C,29711,0,C Ticket Votes,Citizens Electoral Council of Australia,967,14,10,38,39,1068
+NT,C,28003,1,"CAMPBELL, Trudy",Citizens Electoral Council,139,3,1,3,3,149
+NT,C,28004,2,"BARRY, Ian",Citizens Electoral Council,31,0,1,4,2,38
+NT,D,29713,0,D Ticket Votes,The Greens,8287,169,58,590,461,9565
+NT,D,28544,1,"CONNARD, Michael",The Greens,932,19,3,54,64,1072
+NT,D,28546,2,"BANNISTER, Kathy",The Greens,296,7,2,30,31,366
+NT,E,29716,0,E Ticket Votes,Country Liberals (NT),30637,490,159,1826,2278,35390
+NT,E,28820,1,"SCULLION, Nigel",Country Liberals (NT),1278,37,12,85,103,1515
+NT,E,28822,2,"LILLIS, Jenni",Country Liberals (NT),208,7,0,15,21,251
+NT,F,29712,0,F Ticket Votes,Australian Labor Party (Northern Territory) Branch,31920,636,250,1371,1335,35512
+NT,F,28575,1,"McCARTHY, Malarndirri",Australian Labor Party (Northern Territory) Branch,2101,38,19,91,108,2357
+NT,F,28576,2,"HONAN, Pat",Australian Labor Party (Northern Territory) Branch,289,6,1,20,12,328
+NT,G,29714,0,G Ticket Votes,Christian Democratic Party (Fred Nile Group),1302,25,9,93,60,1489
+NT,G,28573,1,"ORDISH, Carol",Christian Democratic Party (Fred Nile Group),115,1,0,10,10,136
+NT,G,28574,2,"ORDISH, John",Christian Democratic Party (Fred Nile Group),30,1,0,0,4,35
+NT,UG,28538,1,"LEE, TS",Independent,250,1,1,10,19,281
+NT,UG,29145,2,"MARSHALL, Tristan",Online Direct Democracy - (Empowering the People!),133,5,1,6,16,161
+NT,UG,29597,3,"RYAN, Maurie Japarta",Independent,138,4,0,8,6,156
+NT,UG,29140,4,"MacDONALD, Marney",Antipaedophile Party,72,3,0,7,3,85
+NT,UG,29596,5,"STRETTLES, Greg",Independent,306,5,2,13,23,349
+QLD,A,29787,0,A Ticket Votes,Australian Cyclists Party,14686,940,167,593,1288,17674
+QLD,A,29479,1,"COX, Chris",Australian Cyclists Party,1692,128,41,87,127,2075
+QLD,A,29480,2,"RE, Edward",Australian Cyclists Party,152,11,4,8,9,184
+QLD,B,29761,0,B Ticket Votes,The Arts Party,7588,720,102,504,822,9736
+QLD,B,28156,1,"JANKOWSKI, Frances",The Arts Party,953,88,9,55,73,1178
+QLD,B,28158,2,"FAINGES, Neil",The Arts Party,89,9,2,4,12,116
+QLD,C,29763,0,C Ticket Votes,Secular Party of Australia,3135,207,26,153,334,3855
+QLD,C,28221,1,"BELL, Trevor",Secular Party of Australia,526,45,12,26,54,663
+QLD,C,28223,2,"CLARK, Scott",Secular Party of Australia,87,8,1,3,6,105
+QLD,D,29769,0,D Ticket Votes,Australian Labor Party,560552,31810,4270,21657,67964,686253
+QLD,D,28863,1,"WATT, Murray",Australian Labor Party,17239,1117,159,721,3246,22482
+QLD,D,28867,2,"CHISHOLM, Anthony",Australian Labor Party,1247,92,19,60,203,1621
+QLD,D,29192,3,"MOORE, Claire",Australian Labor Party,2393,149,18,129,492,3181
+QLD,D,29195,4,"KETTER, Chris",Australian Labor Party,886,70,9,54,141,1160
+QLD,D,29196,5,"CASEY, Jane",Australian Labor Party,997,78,11,48,144,1278
+QLD,D,29199,6,"THOMPSON, Cheryl",Australian Labor Party,1173,61,11,46,258,1549
+QLD,E,29779,0,E Ticket Votes,Liberal Democrats,57785,4023,518,3805,8347,74478
+QLD,E,29452,1,"BUCKLEY, Gabe",Liberal Democrats,1970,167,22,105,259,2523
+QLD,E,29453,2,"ROOTH, John",Liberal Democrats,428,33,4,28,107,600
+QLD,F,29792,0,F Ticket Votes,Online Direct Democracy - (Empowering the People!),4181,257,38,207,406,5089
+QLD,F,29483,1,"RADIC, Peter Joseph",Online Direct Democracy - (Empowering the People!),294,22,3,9,36,364
+QLD,F,29485,2,"MISSINGHAM, David",Online Direct Democracy - (Empowering the People!),42,4,0,3,2,51
+QLD,G,29760,0,G Ticket Votes,Liberal National Party of Queensland,736730,34617,3009,30835,117734,922925
+QLD,G,28068,1,"BRANDIS, George",Liberal National Party of Queensland,18245,1117,79,1107,6751,27299
+QLD,G,28069,2,"CANAVAN, Matthew",Liberal National Party of Queensland,1544,76,7,76,552,2255
+QLD,G,28070,3,"McGRATH, James",Liberal National Party of Queensland,993,63,7,73,223,1359
+QLD,G,28071,4,"MACDONALD, Ian",Liberal National Party of Queensland,1320,91,10,81,527,2029
+QLD,G,28072,5,"O'SULLIVAN, Barry",Liberal National Party of Queensland,764,54,7,54,502,1381
+QLD,G,28073,6,"LINDGREN, Joanna",Liberal National Party of Queensland,1285,82,6,78,482,1933
+QLD,G,28074,7,"RYAN, Dan",Liberal National Party of Queensland,317,33,4,24,66,444
+QLD,G,28075,8,"RENNICK, Gerard",Liberal National Party of Queensland,557,33,1,23,228,842
+QLD,H,29770,0,H Ticket Votes,Animal Justice Party,23164,2190,323,1174,3276,30127
+QLD,H,29202,1,"BEVAN, Paul",Animal Justice Party,1474,123,23,68,190,1878
+QLD,H,29203,2,"WATSON, Zade",Animal Justice Party,221,27,6,11,36,301
+QLD,I,29785,0,I Ticket Votes,Katter's Australian Party,37417,1974,235,1665,4535,45826
+QLD,I,29475,1,"WALTON, Rowell",Katter's Australian Party,2156,110,14,95,337,2712
+QLD,I,29476,2,"MARRIOTT, Joy",Katter's Australian Party,203,22,1,10,33,269
+QLD,J,29789,0,J Ticket Votes,Marriage Equality,17407,1757,233,1014,1972,22383
+QLD,J,29473,1,"SOUTHWARD, Marnie",Marriage Equality,968,123,19,41,108,1259
+QLD,J,29474,2,"MORAN, William",Marriage Equality,130,14,4,10,11,169
+QLD,K,29765,0,K Ticket Votes,Mature Australia,3810,195,33,167,682,4887
+QLD,K,28475,1,"SNELL, Terry",Mature Australia,421,17,5,12,74,529
+QLD,K,28477,2,"CAMERON, Belinda",Mature Australia,78,6,1,5,13,103
+QLD,L,29772,0,L Ticket Votes,Nick Xenophon Team,38889,1582,147,1707,7435,49760
+QLD,L,29286,1,"GRANT, Suzanne",Nick Xenophon Team,4205,176,7,220,885,5493
+QLD,L,29289,2,"CROW, Daniel",Nick Xenophon Team,307,21,2,15,55,400
+QLD,M,29782,0,M Ticket Votes,Pirate Party Australia,7327,714,82,365,837,9325
+QLD,M,29465,1,"SELIC, Brandon",Pirate Party Australia,739,63,8,38,69,917
+QLD,M,29466,2,"PURSEHOUSE, Isaac",Pirate Party Australia,84,3,4,4,5,100
+QLD,N,29767,0,N Ticket Votes,Australian Liberty Alliance,22274,931,146,882,2174,26407
+QLD,N,28510,1,"GAYNOR, Bernard William",Australian Liberty Alliance,2244,86,6,102,407,2845
+QLD,N,28511,2,"BIGGS, Alan",Australian Liberty Alliance,65,2,1,2,8,78
+QLD,N,28512,3,"DOBSON, Chelle",Australian Liberty Alliance,48,2,2,1,9,62
+QLD,O,29768,0,O Ticket Votes,Derryn Hinch's Justice Party,10104,530,62,465,2135,13296
+QLD,O,28726,1,"COTTER, Deb",Derryn Hinch's Justice Party,659,25,6,38,145,873
+QLD,O,28728,2,"HANBIDGE, Karin",Derryn Hinch's Justice Party,68,6,0,2,11,87
+QLD,P,29759,0,P Ticket Votes,Citizens Electoral Council,1309,78,9,52,130,1578
+QLD,P,28019,1,"PUKALLUS, Jan",Citizens Electoral Council,199,6,2,12,33,252
+QLD,P,28020,2,"HARDING, Stephen",Citizens Electoral Council,39,2,0,0,6,47
+QLD,Q,29775,0,Q Ticket Votes,"Shooters, Fishers and Farmers",21651,1764,224,1282,2664,27585
+QLD,Q,29408,1,"TURNER, Michael","Shooters, Fishers and Farmers",1477,132,15,92,183,1899
+QLD,Q,29411,2,"GEE, Michael Anthony","Shooters, Fishers and Farmers",63,6,0,6,12,87
+QLD,R,29783,0,R Ticket Votes,,1074,81,7,45,164,1371
+QLD,R,29467,1,"RIVAS, Sal",,75,5,2,4,7,93
+QLD,R,29468,2,"TANGUILIG, Val",,63,3,2,0,4,72
+QLD,S,29777,0,S Ticket Votes,Democratic Labour Party (DLP),12387,967,155,532,628,14669
+QLD,S,29435,1,"VINCENT, Sheila",Democratic Labour Party (DLP),576,52,11,24,38,701
+QLD,S,29436,2,"MAJOOR, Lucius",Democratic Labour Party (DLP),59,5,1,4,4,73
+QLD,T,29776,0,T Ticket Votes,Family First,39907,2765,370,1463,4003,48508
+QLD,T,29425,1,"McGARVIE, Rod",Family First,2654,166,17,113,342,3292
+QLD,T,29427,2,"BAYNES, Sue",Family First,223,22,4,10,26,285
+QLD,T,29429,3,"HORAN, Kate",Family First,184,12,1,10,21,228
+QLD,T,29431,4,"PELLOWE, David",Family First,109,4,2,6,19,140
+QLD,U,29766,0,U Ticket Votes,Renewable Energy Party,4099,405,48,312,667,5531
+QLD,U,28482,1,"MOYLAN, James",Renewable Energy Party,418,30,7,43,55,553
+QLD,U,28485,2,"GUNDRUM, MaryBeth",Renewable Energy Party,126,10,1,10,14,161
+QLD,V,29791,0,V Ticket Votes,Australian Sex Party/Marijuana (HEMP) Party,21763,2291,338,1139,1940,27471
+QLD,V,29537,1,"BRISTOW, Robin",Australian Sex Party,1412,122,24,63,112,1733
+QLD,V,29539,2,"HOWES, Therese",Marijuana (HEMP) Party,554,52,6,17,43,672
+QLD,V,29541,3,"PATTEN, Kirsty",Australian Sex Party,222,18,0,9,32,281
+QLD,W,29771,0,W Ticket Votes,VOTEFLUX.ORG | Upgrade Democracy!,1233,102,13,60,139,1547
+QLD,W,29261,1,"GARDNER, Mark",VOTEFLUX.ORG | Upgrade Democracy!,233,25,3,14,16,291
+QLD,W,29270,2,"FLOWERS, Reece",VOTEFLUX.ORG | Upgrade Democracy!,35,2,0,2,4,43
+QLD,X,29784,0,X Ticket Votes,Pauline Hanson's One Nation,184526,10084,1229,7282,25935,229056
+QLD,X,29469,1,"HANSON, Pauline",Pauline Hanson's One Nation,15960,766,85,635,3481,20927
+QLD,X,29470,2,"ROBERTS, Malcolm",Pauline Hanson's One Nation,60,2,0,2,13,77
+QLD,X,29471,3,"ANNING, Fraser",Pauline Hanson's One Nation,17,1,0,1,0,19
+QLD,X,29472,4,"SMITH, Judy",Pauline Hanson's One Nation,29,5,1,3,9,47
+QLD,Y,29796,0,Y Ticket Votes,Rise Up Australia Party,4225,233,39,194,416,5107
+QLD,Y,29609,1,"TAYLOR, Paul",Rise Up Australia Party,455,22,7,21,71,576
+QLD,Y,29610,2,"MOONEY, Neroli",Rise Up Australia Party,45,2,0,1,3,51
+QLD,Z,29764,0,Z Ticket Votes,Socialist Equality Party,1115,112,4,81,90,1402
+QLD,Z,28386,1,"HEAD, Mike",Socialist Equality Party,156,13,5,11,8,193
+QLD,Z,28387,2,"COOKE, Erin",Socialist Equality Party,37,1,0,2,4,44
+QLD,AA,29774,0,AA Ticket Votes,Christian Democratic Party (Fred Nile Group),5147,331,48,280,690,6496
+QLD,AA,29402,1,"SOLOMON, Wayne",Christian Democratic Party (Fred Nile Group),608,25,5,28,113,779
+QLD,AA,29405,2,"SWEERIS-SIGRIST, Ludy Charles",Christian Democratic Party (Fred Nile Group),34,2,1,0,2,39
+QLD,AB,29795,0,AB Ticket Votes,Palmer United Party,3718,305,41,155,297,4516
+QLD,AB,29486,1,"McDONALD, James",Palmer United Party,226,19,3,12,22,282
+QLD,AB,29488,2,"GUNNIS, Craig",Palmer United Party,15,0,0,0,3,18
+QLD,AC,29781,0,AC Ticket Votes,Glenn Lazarus Team,31976,1187,130,860,3206,37359
+QLD,AC,29460,1,"LAZARUS, Glenn",Glenn Lazarus Team,6205,215,11,231,902,7564
+QLD,AC,29462,2,"WALTERS, Kerrod",Glenn Lazarus Team,125,7,2,2,23,159
+QLD,AC,29463,3,"LOURIGAN, Annette",Glenn Lazarus Team,49,0,0,6,12,67
+QLD,AD,29790,0,AD Ticket Votes,Jacqui Lambie Network,6515,330,35,302,1075,8257
+QLD,AD,29528,1,"SALTMARSH, Marcus",Jacqui Lambie Network,640,25,2,35,91,793
+QLD,AD,29534,2,"PECKETT, Crystal",Jacqui Lambie Network,71,4,2,2,9,88
+QLD,AE,29793,0,AE Ticket Votes,Australian Progressives,790,89,12,39,73,1003
+QLD,AE,29489,1,"STEVENS, Ken",Australian Progressives,113,6,0,5,14,138
+QLD,AE,29492,2,"McCORMACK, Jo",Australian Progressives,56,4,1,4,7,72
+QLD,AF,29773,0,AF Ticket Votes,Australian Christians,6868,463,49,307,878,8565
+QLD,AF,29313,1,"TAYLOR, Shea",Australian Christians,789,53,4,24,123,993
+QLD,AF,29314,2,"BRICE, Malcolm",Australian Christians,102,3,1,5,17,128
+QLD,AG,29794,0,AG Ticket Votes,Drug Law Reform,12785,1439,236,657,974,16091
+QLD,AG,29498,1,"LYNCH, Deb",Drug Law Reform,695,74,14,36,71,890
+QLD,AG,29499,2,"SMITH, Lorraine",Drug Law Reform,62,7,0,4,6,79
+QLD,AH,29786,0,AH Ticket Votes,Health Australia Party,7226,579,98,334,804,9041
+QLD,AH,29477,1,"WOODFORTH, Jason",Health Australia Party,749,61,7,28,87,932
+QLD,AH,29478,2,"GOLDEN, Sarinah",Health Australia Party,141,10,4,10,9,174
+QLD,AI,29778,0,AI Ticket Votes,CountryMinded,1629,144,11,93,512,2389
+QLD,AI,29392,1,"MAILLER, Pete",CountryMinded,233,13,1,4,112,363
+QLD,AI,29399,2,"STIVANO, Sherrill",CountryMinded,59,6,0,1,18,84
+QLD,AJ,29762,0,AJ Ticket Votes,Veterans Party,3096,211,24,285,544,4160
+QLD,AJ,28167,1,"DAVEY, Jeremy",Veterans Party,215,16,3,18,55,307
+QLD,AJ,28168,2,"HODKINSON, Darryl",Veterans Party,49,2,0,1,15,67
+QLD,AK,29780,0,AK Ticket Votes,The Greens,133821,11266,1051,7402,13787,167327
+QLD,AK,29442,1,"WATERS, Larissa",The Greens,13902,1095,83,841,2270,18191
+QLD,AK,29443,2,"BARTLETT, Andrew",The Greens,1135,90,4,59,185,1473
+QLD,AK,29445,3,"PENNINGS, Ben",The Greens,121,9,3,8,25,166
+QLD,AK,29449,4,"KLOOT, Johanna",The Greens,75,6,1,5,12,99
+QLD,AK,29451,5,"ANDERSON, Fiona",The Greens,166,14,3,13,27,223
+QLD,AK,29454,6,"WORRINGHAM, Charles",The Greens,53,5,1,8,8,75
+QLD,AK,29455,7,"SKINNER, Rainee",The Greens,32,8,0,7,7,54
+QLD,AK,29456,8,"LEO, Janina",The Greens,54,7,3,4,13,81
+QLD,AK,29457,9,"ANDERSON, Meg",The Greens,83,5,1,4,15,108
+QLD,AK,29458,10,"NOBLE, Louise",The Greens,51,6,0,6,14,77
+QLD,AK,29459,11,"KENNEDY, Kirsten",The Greens,95,9,1,7,5,117
+QLD,AK,29461,12,"QUIRK, Elena",The Greens,226,28,2,24,52,332
+QLD,AL,29788,0,AL Ticket Votes,Sustainable Australia,3713,322,33,248,590,4906
+QLD,AL,29481,1,"ROLES, John",Sustainable Australia,298,18,0,14,41,371
+QLD,AL,29482,2,"MORAN, Matt",Sustainable Australia,69,3,0,7,10,89
+QLD,UG,29613,1,"REDDY, Shyamal",Independent,285,19,1,13,45,363
+QLD,UG,28855,2,"McMAHON, Greg",Independent,160,12,0,8,35,215
+QLD,UG,29379,3,"BUNDY, David",Independent,36,2,0,0,13,51
+QLD,UG,28199,4,"VUGA, Kim",Independent,146,7,2,1,16,172
+QLD,UG,29419,5,"SAVAGE, Jim",Independent,173,6,0,4,36,219
+QLD,UG,28219,6,"MOORE, Tony R.",Independent,458,21,1,12,44,536
+QLD,UG,29617,7,"POTTER, Josephine",Independent,44,1,0,2,21,68
+QLD,UG,29383,8,"STEVENSON, Paul Joseph",Independent,304,12,1,6,40,363
+QLD,UG,29606,9,"ANDERSON, Marshal",Independent,59,4,0,0,5,68
+QLD,UG,29438,10,"EUGARDE, Ian",Independent,26,0,0,1,4,31
+QLD,UG,28507,11,"BOYD, Julie",Independent,695,23,1,24,118,861
+QLD,UG,29614,12,"HANNA-McGUFFIE, Leeanne",Independent,54,4,0,2,21,81
+QLD,UG,28498,13,"HARRIS, Zoemaree",Independent,172,12,2,2,24,212
+QLD,UG,28018,14,"KAFF, Michael",Independent,78,5,0,0,5,88
+QLD,UG,28245,15,"JORGENSEN, Terry",Independent,32,0,1,1,7,41
+QLD,UG,28503,16,"PEAD, Gary James",Independent,33,3,0,2,6,44
+QLD,UG,29413,17,"GIBSON, John",Independent,40,2,0,2,11,55
+QLD,UG,28857,18,"MARRIAGE, Belinda",Independent,237,5,0,6,45,293
+QLD,UG,29416,19,"BEATTIE, Greg",Independent,313,25,2,8,45,393
+SA,A,29643,0,A Ticket Votes,Mature Australia,3213,244,82,108,288,3935
+SA,A,28433,1,"BOTHE, Darryl",Mature Australia,338,37,9,10,50,444
+SA,A,28436,2,"DENNY, Lyndal",Mature Australia,53,2,3,1,2,61
+SA,B,29655,0,B Ticket Votes,Australian Labor Party,226703,17029,3431,5298,17363,269824
+SA,B,29506,1,"WONG, Penny",Australian Labor Party,14480,1006,175,449,1789,17899
+SA,B,29508,2,"FARRELL, Don",Australian Labor Party,531,69,15,24,50,689
+SA,B,29510,3,"GALLACHER, Alex",Australian Labor Party,252,30,10,11,27,330
+SA,B,29511,4,"McEWEN, Anne",Australian Labor Party,441,55,5,22,32,555
+SA,B,29512,5,"ALLISON, Michael",Australian Labor Party,267,28,7,6,18,326
+SA,B,29515,6,"GALLACHER, Bronwyn",Australian Labor Party,227,22,7,6,17,279
+SA,C,29651,0,C Ticket Votes,The Arts Party,2121,237,53,97,147,2655
+SA,C,29535,1,"CRAWFORD, Terence Michael",The Arts Party,530,54,10,29,38,661
+SA,C,29536,2,"SANDERS, Charles Andrew Laurence",The Arts Party,38,3,0,4,7,52
+SA,D,29652,0,D Ticket Votes,The Greens,41100,4633,759,1794,2724,51010
+SA,D,29494,1,"HANSON-YOUNG, Sarah",The Greens,7243,675,85,307,670,8980
+SA,D,29495,2,"SIMMS, Robert",The Greens,1560,140,27,62,149,1938
+SA,D,29496,3,"MOATE, Jody",The Greens,96,10,3,6,8,123
+SA,D,29497,4,"DE KOK, Harriet",The Greens,214,29,3,15,17,278
+SA,E,29660,0,E Ticket Votes,Australian Cyclists Party,1139,111,16,36,97,1399
+SA,E,29571,1,"BILSON-THOMPSON, Sundance",Australian Cyclists Party,204,17,1,4,24,250
+SA,E,29572,2,"HARKER-SMITH, Angus",Australian Cyclists Party,11,3,0,0,1,15
+SA,F,29653,0,F Ticket Votes,Nick Xenophon Team,172558,9697,1424,4961,15865,204505
+SA,F,29504,1,"XENOPHON, Nick",Nick Xenophon Team,20706,1115,162,647,3147,25777
+SA,F,29505,2,"GRIFF, Stirling",Nick Xenophon Team,80,3,1,5,14,103
+SA,F,29507,3,"KAKOSCHKE-MOORE, Skye",Nick Xenophon Team,110,6,1,1,11,129
+SA,F,29509,4,"STORER, Tim",Nick Xenophon Team,152,10,3,5,19,189
+SA,G,29662,0,G Ticket Votes,Australian Progressives,703,53,12,27,62,857
+SA,G,29579,1,"PAZESKI-NIKOLOSKI, Sasha",Australian Progressives,188,13,4,7,17,229
+SA,G,29581,2,"PRIDDEY, Jaz",Australian Progressives,55,12,2,1,1,71
+SA,H,29658,0,H Ticket Votes,Liberal,274627,16364,2290,9139,27096,329516
+SA,H,29578,1,"BIRMINGHAM, Simon",Liberal,8494,434,48,308,1824,11108
+SA,H,29580,2,"BERNARDI, Cory",Liberal,1583,74,12,58,316,2043
+SA,H,29582,3,"RUSTON, Anne",Liberal,596,46,2,25,133,802
+SA,H,29583,4,"FAWCETT, David",Liberal,697,47,2,11,121,878
+SA,H,29584,5,"EDWARDS, Sean",Liberal,601,76,5,15,69,766
+SA,H,29585,6,"LIDDLE, Kerrynne",Liberal,518,33,5,16,82,654
+SA,I,29654,0,I Ticket Votes,Palmer United Party,586,58,12,17,49,722
+SA,I,29519,1,"REES, Kristian",Palmer United Party,39,6,1,1,4,51
+SA,I,29521,2,"FILINGERI, Carlo",Palmer United Party,4,1,0,0,0,5
+SA,J,29642,0,J Ticket Votes,Australian Motoring Enthusiast Party,3663,426,76,146,251,4562
+SA,J,28427,1,"GREEN, Nathan",Australian Motoring Enthusiast Party,397,30,10,13,23,473
+SA,J,28430,2,"KUERSCHNER, Judith",Australian Motoring Enthusiast Party,39,7,4,3,3,56
+SA,K,29650,0,K Ticket Votes,Liberal Democrats,5477,478,78,166,292,6491
+SA,K,29500,1,"SADRI, Roostam",Liberal Democrats,297,26,5,6,24,358
+SA,K,29502,2,"NOACK, Michael",Liberal Democrats,58,2,0,3,1,64
+SA,L,29657,0,L Ticket Votes,VOTEFLUX.ORG | Upgrade Democracy!,469,51,15,14,48,597
+SA,L,29526,1,"BIRD, Adam Anthony",VOTEFLUX.ORG | Upgrade Democracy!,153,20,3,6,17,199
+SA,L,29530,2,"BAKER, Jeff",VOTEFLUX.ORG | Upgrade Democracy!,14,4,0,1,5,24
+SA,M,29647,0,M Ticket Votes,Christian Democratic Party (Fred Nile Group),1927,148,39,76,191,2381
+SA,M,28859,1,"ATTIA, Matt",Christian Democratic Party (Fred Nile Group),305,19,4,5,35,368
+SA,M,28860,2,"STEPHEN, Joseph Kelton",Christian Democratic Party (Fred Nile Group),41,2,1,0,6,50
+SA,N,29645,0,N Ticket Votes,Family First,20833,1582,344,524,1534,24817
+SA,N,28842,1,"DAY, Bob",Family First,4673,278,21,81,442,5495
+SA,N,28845,2,"GICHUHI, Lucy",Family First,126,10,3,5,8,152
+SA,O,29646,0,O Ticket Votes,Pauline Hanson's One Nation,24348,2070,475,812,2146,29851
+SA,O,28851,1,"BURGESS, Steven David",Pauline Hanson's One Nation,1268,114,27,56,174,1639
+SA,O,28853,2,"NICOLIS, Angelina",Pauline Hanson's One Nation,94,13,2,3,19,131
+SA,P,29644,0,P Ticket Votes,Marriage Equality,2808,373,83,122,280,3666
+SA,P,29586,1,"TUAZON-McCHEYNE, Adrian",Marriage Equality,219,27,6,14,28,294
+SA,P,29588,2,"BOND, Alex",Marriage Equality,53,4,0,6,9,72
+SA,Q,29649,0,Q Ticket Votes,"Shooters, Fishers and Farmers",5790,472,92,221,509,7084
+SA,Q,28866,1,"HAHN, John","Shooters, Fishers and Farmers",499,52,6,20,87,664
+SA,Q,28868,2,"CARTER, Nick","Shooters, Fishers and Farmers",46,9,0,4,8,67
+SA,R,29656,0,R Ticket Votes,Marijuana (HEMP) Party/Australian Sex Party,8438,1126,240,310,488,10602
+SA,R,29553,1,"PARKER, Ryan Douglas",Marijuana (HEMP) Party,822,126,20,43,56,1067
+SA,R,29556,2,"SAUNDERS, Margaret",Australian Sex Party,347,41,2,17,15,422
+SA,S,29648,0,S Ticket Votes,Australian Liberty Alliance,3148,243,40,102,314,3847
+SA,S,28861,1,"MARSH, Wanda Lee",Australian Liberty Alliance,434,25,2,12,54,527
+SA,S,28862,2,"HORWOOD, Andrew",Australian Liberty Alliance,41,8,2,2,8,61
+SA,T,29661,0,T Ticket Votes,Derryn Hinch's Justice Party,1684,142,22,52,279,2179
+SA,T,29592,1,"GROSSER, Lynn-Marie",Derryn Hinch's Justice Party,124,13,3,3,25,168
+SA,T,29593,2,"THOMAS, Colin",Derryn Hinch's Justice Party,9,1,0,1,1,12
+SA,U,29641,0,U Ticket Votes,Animal Justice Party,6270,713,128,224,728,8063
+SA,U,28421,1,"NOBLE, Tania",Animal Justice Party,676,54,10,20,82,842
+SA,U,28423,2,"BREAGAN, Emma",Animal Justice Party,60,9,0,4,3,76
+SA,V,29659,0,V Ticket Votes,Voluntary Euthanasia Party,1473,109,15,47,297,1941
+SA,V,29561,1,"KNIGHT, Jessica",Voluntary Euthanasia Party,233,21,2,7,52,315
+SA,V,29565,2,"BUCKLEY, Kym",Voluntary Euthanasia Party,24,3,1,1,1,30
+SA,W,29640,0,W Ticket Votes,Citizens Electoral Council,337,38,6,14,35,430
+SA,W,28418,1,"KOZLOW, Alex",Citizens Electoral Council,51,3,1,0,6,61
+SA,W,28419,2,"SIEBERT, Paul",Citizens Electoral Council,7,1,0,0,0,8
+SA,UG,29551,1,"WATERS, Ron",Antipaedophile Party,91,10,2,1,13,117
+SA,UG,29555,2,"COCHRANE, Christopher Mark",Independent,69,8,1,3,10,91
+SA,UG,29594,3,"RICHARDS, Adam",Independent,389,34,5,4,26,458
+SA,UG,28869,4,"ALI, Mohammad",Independent,40,5,0,4,6,55
+SA,UG,29547,5,"SADDLER, Dave",Independent,43,1,1,0,4,49
+SA,UG,28414,6,"DAVEY, Malcolm Lloyd",Independent,69,6,0,1,5,81
+TAS,A,29632,0,A Ticket Votes,Family First,4683,311,83,158,286,5521
+TAS,A,28588,1,"MADDEN, Peter",Family First,809,53,12,32,90,996
+TAS,A,28589,2,"ROBERTS, Andrew",Family First,146,6,1,8,14,175
+TAS,B,29627,0,B Ticket Votes,Australian Labor Party,71073,3573,719,2225,5776,83366
+TAS,B,28590,1,"URQUHART, Anne",Australian Labor Party,3784,143,34,120,384,4465
+TAS,B,28591,2,"POLLEY, Helen",Australian Labor Party,1615,59,7,49,234,1964
+TAS,B,28592,3,"BROWN, Carol",Australian Labor Party,866,39,5,31,133,1074
+TAS,B,28593,4,"BILYK, Catryna",Australian Labor Party,913,32,3,25,138,1111
+TAS,B,28594,5,"SHORT, John",Australian Labor Party,1030,44,9,34,97,1214
+TAS,B,28595,6,"SINGH, Lisa",Australian Labor Party,17854,535,62,492,1798,20741
+TAS,C,29622,0,C Ticket Votes,The Greens,17752,1237,184,1147,1355,21675
+TAS,C,28367,1,"WHISH-WILSON, Peter",The Greens,7251,338,54,344,566,8553
+TAS,C,28368,2,"McKIM, Nick",The Greens,5168,269,33,296,413,6179
+TAS,C,28370,3,"REYNOLDS, Anna",The Greens,1191,60,12,55,115,1433
+TAS,D,29629,0,D Ticket Votes,Christian Democratic Party (Fred Nile Group),1786,76,17,61,153,2093
+TAS,D,28596,1,"NERO-NILE, Silvana",Christian Democratic Party (Fred Nile Group),564,28,2,11,52,657
+TAS,D,28597,2,"GORA, Mishka",Christian Democratic Party (Fred Nile Group),93,4,1,3,10,111
+TAS,E,29630,0,E Ticket Votes,Nick Xenophon Team,2886,129,16,183,418,3632
+TAS,E,28598,1,"HOULT, Michelle",Nick Xenophon Team,1133,25,3,43,156,1360
+TAS,E,28599,2,"COHEN, Nicky",Nick Xenophon Team,110,3,1,3,19,136
+TAS,F,29626,0,F Ticket Votes,Liberal,70353,2948,373,3137,6554,83365
+TAS,F,28580,1,"ABETZ, Eric",Liberal,6919,334,40,347,1069,8709
+TAS,F,28581,2,"PARRY, Stephen",Liberal,1602,54,5,100,233,1994
+TAS,F,28582,3,"DUNIAM, Jonathon",Liberal,550,21,3,26,54,654
+TAS,F,28583,4,"BUSHBY, David",Liberal,1013,39,5,53,168,1278
+TAS,F,28584,5,"COLBECK, Richard",Liberal,11468,349,15,411,1231,13474
+TAS,F,28585,6,"TUCKER, John",Liberal,677,29,1,31,106,844
+TAS,G,29636,0,G Ticket Votes,Palmer United Party,1803,99,24,45,72,2043
+TAS,G,29135,1,"MORGAN, Kevin",Palmer United Party,228,7,2,6,15,258
+TAS,G,29139,2,"STRINGER, Justin Leigh",Palmer United Party,27,1,0,2,2,32
+TAS,G,29141,3,"VON STIEGLITZ, Quentin",Palmer United Party,25,0,0,1,4,30
+TAS,H,29635,0,H Ticket Votes,Australian Sex Party/Marijuana (HEMP) Party,3122,247,65,118,170,3722
+TAS,H,29302,1,"COLLINS, Francesca",Australian Sex Party,480,33,5,12,32,562
+TAS,H,29307,2,"OWEN, Matt",Marijuana (HEMP) Party,173,9,4,5,18,209
+TAS,I,29623,0,I Ticket Votes,Pauline Hanson's One Nation,6250,347,83,295,638,7613
+TAS,I,28374,1,"McCULLOCH, Kate",Pauline Hanson's One Nation,855,36,6,28,103,1028
+TAS,I,28375,2,"MANZI, Natasia",Pauline Hanson's One Nation,48,3,0,2,6,59
+TAS,J,29631,0,J Ticket Votes,Derryn Hinch's Justice Party,992,39,10,44,164,1249
+TAS,J,28600,1,"CASS, Suzanne",Derryn Hinch's Justice Party,156,3,2,5,20,186
+TAS,J,28601,2,"BAKER, Daniel",Derryn Hinch's Justice Party,31,1,0,2,4,38
+TAS,K,29619,0,K Ticket Votes,Citizens Electoral Council,116,10,0,3,1,130
+TAS,K,28047,1,"THORNTON, Meg",Citizens Electoral Council,36,0,2,1,4,43
+TAS,K,28048,2,"KUCINA, Steve",Citizens Electoral Council,4,0,0,0,0,4
+TAS,L,29628,0,L Ticket Votes,Renewable Energy Party,775,51,12,45,75,958
+TAS,L,28586,1,"MANSON, Rob",Renewable Energy Party,263,15,0,11,28,317
+TAS,L,28587,2,"JOYCE, Sharon",Renewable Energy Party,51,2,0,3,9,65
+TAS,M,29624,0,M Ticket Votes,Jacqui Lambie Network,14149,537,88,455,1182,16411
+TAS,M,28361,1,"LAMBIE, Jacqui",Jacqui Lambie Network,9841,312,29,306,975,11463
+TAS,M,28363,2,"MARTIN, Steve",Jacqui Lambie Network,213,3,0,4,13,233
+TAS,M,28365,3,"WATERMAN, Rob",Jacqui Lambie Network,30,3,1,0,5,39
+TAS,N,29633,0,N Ticket Votes,Australian Liberty Alliance,748,27,5,42,52,874
+TAS,N,28800,1,"ROBINSON, Tony",Australian Liberty Alliance,186,6,2,6,27,227
+TAS,N,28801,2,"HORWOOD, Susan",Australian Liberty Alliance,11,0,0,0,0,11
+TAS,O,29634,0,O Ticket Votes,VOTEFLUX.ORG | Upgrade Democracy!,508,28,5,17,34,592
+TAS,O,29119,1,"POULTON, Adam",VOTEFLUX.ORG | Upgrade Democracy!,281,13,4,5,10,313
+TAS,O,29124,2,"KAYE, Max",VOTEFLUX.ORG | Upgrade Democracy!,33,4,0,1,3,41
+TAS,P,29638,0,P Ticket Votes,"Shooters, Fishers and Farmers",3201,285,42,125,297,3950
+TAS,P,29288,1,"ALLEN, Matthew","Shooters, Fishers and Farmers",519,33,10,12,60,634
+TAS,P,29291,2,"MIDSON, Ricky","Shooters, Fishers and Farmers",84,8,2,2,8,104
+TAS,Q,29639,0,Q Ticket Votes,Animal Justice Party,1544,95,14,53,188,1894
+TAS,Q,29560,1,"BEVIS, Karen",Animal Justice Party,333,14,7,7,41,402
+TAS,Q,29567,2,"BAKER, Alison",Animal Justice Party,60,2,0,4,15,81
+TAS,R,29637,0,R Ticket Votes,Science Party,674,44,10,41,59,828
+TAS,R,29281,1,"WILLINK, Hans",Science Party,322,27,0,14,31,394
+TAS,R,29283,2,"CHOI, Jin-oh",Science Party,72,2,0,2,8,84
+TAS,S,29621,0,S Ticket Votes,Australian Recreational Fishers Party,1663,102,12,43,110,1930
+TAS,S,28276,1,"HARKINS, Kevin",Australian Recreational Fishers Party,341,18,3,6,28,396
+TAS,S,28277,2,"EVANS, Carmen",Australian Recreational Fishers Party,38,4,0,3,5,50
+TAS,T,29625,0,T Ticket Votes,Liberal Democrats,1221,63,13,71,77,1445
+TAS,T,28381,1,"MEAD, Clinton",Liberal Democrats,150,10,0,9,10,179
+TAS,T,28385,2,"ALSTON, Ian",Liberal Democrats,28,5,1,1,3,38
+TAS,U,29620,0,U Ticket Votes,The Arts Party,387,32,3,28,33,483
+TAS,U,28186,1,"O'HARA, Scott",The Arts Party,123,6,2,5,10,146
+TAS,U,28187,2,"VOLTA, JoAnne",The Arts Party,82,7,0,2,8,99
+TAS,UG,28358,1,"CRAWFORD, David",Antipaedophile Party,56,3,1,2,7,69
+TAS,UG,29239,2,"MARSKELL, Kaye",Independent,172,5,2,6,30,215
+TAS,UG,28579,3,"TEMBY, Richard",Mature Australia,110,0,0,2,14,126
+TAS,UG,28767,4,"RUSSELL, Grant",Independent,44,1,0,1,3,49
+TAS,UG,28054,5,"LANE, George",Independent,32,0,0,2,5,39
+VIC,A,29673,0,A Ticket Votes,Derryn Hinch's Justice Party,152582,8814,1861,7027,24877,195161
+VIC,A,28081,1,"HINCH, Derryn",Derryn Hinch's Justice Party,13223,749,175,524,1710,16381
+VIC,A,28082,2,"GRIMLEY, Stuart",Derryn Hinch's Justice Party,143,12,6,11,19,191
+VIC,B,29710,0,B Ticket Votes,,2110,214,62,140,316,2842
+VIC,B,29589,1,"COLLYER, David",,366,30,12,27,28,463
+VIC,B,29591,2,"MITCHELL-COOK, Wanda",,58,6,5,4,8,81
+VIC,C,29676,0,C Ticket Votes,Animal Justice Party,42957,4042,896,2723,6555,57173
+VIC,C,28198,1,"POON, Bruce",Animal Justice Party,2232,221,66,129,293,2941
+VIC,C,28201,2,"EDGECOMBE, Jacqueline",Animal Justice Party,495,48,15,32,76,666
+VIC,D,29678,0,D Ticket Votes,Australian Labor Party,828760,52322,12347,42538,99758,1035725
+VIC,D,28345,1,"CARR, Kim",Australian Labor Party,22599,1490,378,1244,3435,29146
+VIC,D,28346,2,"CONROY, Stephen Michael",Australian Labor Party,2376,181,46,148,355,3106
+VIC,D,28348,3,"COLLINS, Jacinta",Australian Labor Party,2428,174,34,148,401,3185
+VIC,D,28350,4,"MARSHALL, Gavin",Australian Labor Party,876,99,22,62,108,1167
+VIC,D,28351,5,"YANG, Chien-Hui",Australian Labor Party,1040,102,19,82,180,1423
+VIC,D,28353,6,"PERSSE, Louise",Australian Labor Party,493,57,8,32,61,651
+VIC,D,28354,7,"KENT, Steve",Australian Labor Party,522,58,11,18,57,666
+VIC,D,28355,8,"TARCZON, Les",Australian Labor Party,439,33,11,29,77,589
+VIC,E,29709,0,E Ticket Votes,Science Party / Cyclists Party,7150,627,114,520,897,9308
+VIC,E,29448,1,"JAMES, Luke",Science Party,1402,93,15,86,144,1740
+VIC,E,29450,2,"DOW, Nik",Australian Cyclists Party,372,27,3,24,93,519
+VIC,F,29701,0,F Ticket Votes,Palmer United Party,8553,383,135,341,593,10005
+VIC,F,29176,1,"THOOLEN, Catriona Cecilia",Palmer United Party,337,22,5,13,16,393
+VIC,F,29175,2,"HICKEY, Cameron",Palmer United Party,47,4,1,2,4,58
+VIC,G,29685,0,G Ticket Votes,Jacqui Lambie Network,11308,542,112,666,1423,14051
+VIC,G,28541,1,"DOLAN, Hugh",Jacqui Lambie Network,951,42,8,37,117,1155
+VIC,G,28543,2,"TIMSON, Matt",Jacqui Lambie Network,63,5,0,4,10,82
+VIC,H,29693,0,H Ticket Votes,Australian Christians,26304,1411,361,1184,2399,31659
+VIC,H,28841,1,"JANSON, Vickie",Australian Christians,2335,142,36,98,232,2843
+VIC,H,28843,2,"ARAPOGLOU, Eleni",Australian Christians,128,8,5,5,14,160
+VIC,H,28848,3,"OKUMU, Anne",Australian Christians,82,5,3,3,8,101
+VIC,I,29703,0,I Ticket Votes,Sustainable Australia,7355,513,105,465,1054,9492
+VIC,I,29168,1,"NICHOLLS, Georgia",Sustainable Australia,787,65,10,34,97,993
+VIC,I,29169,2,"ARMSTRONG, Steven",Sustainable Australia,69,3,2,3,12,89
+VIC,J,29680,0,J Ticket Votes,Pirate Party,9465,912,151,595,1015,12138
+VIC,J,28388,1,"SIMPSON, Lachlan",Pirate Party,944,89,14,48,86,1181
+VIC,J,28389,2,"BURLEIGH, Richard",Pirate Party,89,7,0,3,6,105
+VIC,K,29679,0,K Ticket Votes,Socialist Equality Party,2357,180,65,126,150,2878
+VIC,K,28359,1,"SINNEMA, Chris",Socialist Equality Party,295,24,4,16,18,357
+VIC,K,28360,2,"BYRNE, Peter",Socialist Equality Party,49,4,0,3,2,58
+VIC,L,29681,0,L Ticket Votes,Health Australia Party,12276,985,222,740,1514,15737
+VIC,L,28392,1,"GOLDEN, Isaac",Health Australia Party,1040,73,26,59,78,1276
+VIC,L,28393,2,"BREAKWELL, Kathryn",Health Australia Party,112,8,0,10,26,156
+VIC,M,29700,0,M Ticket Votes,Renewable Energy Party,5787,522,88,527,1057,7981
+VIC,M,29148,1,"ASKEY, Graham",Renewable Energy Party,596,59,6,43,84,788
+VIC,M,29150,2,"WILSON, Gray",Renewable Energy Party,59,4,2,4,7,76
+VIC,N,29699,0,N Ticket Votes,VOTEFLUX.ORG | Upgrade Democracy!,1865,156,28,100,161,2310
+VIC,N,29115,1,"LEHRER, Danielle",VOTEFLUX.ORG | Upgrade Democracy!,377,27,1,28,42,475
+VIC,N,29121,2,"MILNE, Stuart James",VOTEFLUX.ORG | Upgrade Democracy!,45,4,1,2,1,53
+VIC,O,29687,0,O Ticket Votes,Family First Party,30219,1934,480,1515,3420,37568
+VIC,O,28504,1,"BAIN, Peter Timothy",Family First Party,1420,103,20,69,191,1803
+VIC,O,28505,2,"GREEN, Randell",Family First Party,183,18,4,10,25,240
+VIC,O,28506,3,"MANNERS, Craig",Family First Party,98,9,3,5,21,136
+VIC,P,29707,0,P Ticket Votes,Christian Democratic Party (Fred Nile Group),6811,382,92,373,817,8475
+VIC,P,29300,1,"HANNA, May",Christian Democratic Party (Fred Nile Group),587,50,12,31,72,752
+VIC,P,29303,2,"BOTROS, Stephanie",Christian Democratic Party (Fred Nile Group),48,5,1,2,4,60
+VIC,Q,29690,0,Q Ticket Votes,The Arts Party,5050,513,77,460,585,6685
+VIC,Q,28535,1,"GODDE, Rose",The Arts Party,740,69,5,46,55,915
+VIC,Q,28536,2,"HENSON, Jamie Christopher",The Arts Party,58,2,2,2,9,73
+VIC,Q,28537,3,"ANDREW, Maureen J",The Arts Party,49,4,1,6,4,64
+VIC,R,29698,0,R Ticket Votes,DLP Democratic Labour,14025,921,219,735,1034,16934
+VIC,R,29181,1,"VEREKER, Stephen",DLP Democratic Labour,917,61,17,39,94,1128
+VIC,R,29182,2,"FREEMAN, Michael",DLP Democratic Labour,75,5,4,3,3,90
+VIC,S,29683,0,S Ticket Votes,Citizens Electoral Council,1453,106,30,86,162,1837
+VIC,S,28396,1,"ISHERWOOD, Craig",Citizens Electoral Council,200,20,3,7,15,245
+VIC,S,28397,2,"PEUT, Gabrielle",Citizens Electoral Council,11,0,1,0,4,16
+VIC,T,29705,0,T Ticket Votes,Secular Party of Australia,1497,120,23,103,172,1915
+VIC,T,29157,1,"PERKINS, John",Secular Party of Australia,260,20,4,9,31,324
+VIC,T,29159,2,"CARR, Alice",Secular Party of Australia,55,3,0,3,3,64
+VIC,U,29686,0,U Ticket Votes,Australian Liberty Alliance,16983,1023,248,1196,1892,21342
+VIC,U,28539,1,"JONES, Daniel",Australian Liberty Alliance,1305,54,24,80,217,1680
+VIC,U,28540,2,"NICHOLLS, Kenneth",Australian Liberty Alliance,44,2,1,5,6,58
+VIC,V,29689,0,V Ticket Votes,Nick Xenophon Team,37365,1868,267,2380,7098,48978
+VIC,V,28508,1,"HALPERN, Naomi",Nick Xenophon Team,4528,191,31,230,838,5818
+VIC,V,28509,2,"LEE, Justin",Nick Xenophon Team,265,4,3,16,34,322
+VIC,W,29708,0,W Ticket Votes,Australian Motoring Enthusiast Party,16818,1102,184,938,1986,21028
+VIC,W,29446,1,"MUIR, Ricky",Australian Motoring Enthusiast Party,8745,370,51,427,1039,10632
+VIC,W,29447,2,"MACKLEY, Aaron",Australian Motoring Enthusiast Party,97,8,4,3,13,125
+VIC,X,29675,0,X Ticket Votes,Marriage Equality,11821,1048,222,901,1889,15881
+VIC,X,28141,1,"TUAZON-McCHEYNE, Jason",Marriage Equality,772,70,6,64,109,1021
+VIC,X,28142,2,"TOMLINS, Jacqueline",Marriage Equality,182,19,2,9,25,237
+VIC,Y,29684,0,Y Ticket Votes,Pauline Hanson's One Nation,47461,2684,652,2916,7017,60730
+VIC,Y,28398,1,"ROYLANCE, Simon Peter",Pauline Hanson's One Nation,2090,151,43,117,251,2652
+VIC,Y,28399,2,"CAMERON, Ian John",Pauline Hanson's One Nation,120,3,1,7,15,146
+VIC,Z,29704,0,Z Ticket Votes,Socialist Alliance,1611,161,23,115,136,2046
+VIC,Z,29162,1,"CHELLIAH, Lalitha",Socialist Alliance,369,38,7,23,37,474
+VIC,Z,29163,2,"GOODEN, Tim",Socialist Alliance,58,7,3,4,5,77
+VIC,AA,29688,0,AA Ticket Votes,Australian Country Party,7179,311,66,437,837,8830
+VIC,AA,28545,1,"KERR, Garry",Australian Country Party,300,11,4,15,41,371
+VIC,AA,28547,2,"LARKIN, Phil",Australian Country Party,94,6,2,0,13,115
+VIC,AB,29702,0,AB Ticket Votes,MFP,3295,104,19,102,372,3892
+VIC,AB,29179,1,"MADIGAN, John",MFP,1120,44,2,50,143,1359
+VIC,AB,29180,2,"GEORGE, Mark",MFP,15,1,1,0,0,17
+VIC,AC,29694,0,AC Ticket Votes,Drug Law Reform,16964,2204,448,1116,1484,22216
+VIC,AC,28852,1,"CHIPP, Greg",Drug Law Reform,804,97,19,36,86,1042
+VIC,AC,28854,2,"SHERMAN, John",Drug Law Reform,90,14,1,3,18,126
+VIC,AD,29677,0,AD Ticket Votes,Voluntary Euthanasia Party,3622,237,40,246,1049,5194
+VIC,AD,28304,1,"SCANLON, David James",Voluntary Euthanasia Party,389,11,3,20,80,503
+VIC,AD,28305,2,"JONES, Miranda",Voluntary Euthanasia Party,52,1,1,4,13,71
+VIC,AE,29682,0,AE Ticket Votes,Mature Australia,2501,101,23,131,422,3178
+VIC,AE,28394,1,"McCARTHY, Graham",Mature Australia,188,10,3,18,43,262
+VIC,AE,28395,2,"RIDGE, Roy",Mature Australia,23,0,0,0,6,29
+VIC,AF,29696,0,AF Ticket Votes,Liberal/The Nationals,887151,44958,7350,51887,141682,1133028
+VIC,AF,28871,1,"FIFIELD, Mitch",Liberal,12325,830,135,968,3604,17862
+VIC,AF,28873,2,"McKENZIE, Bridget",The Nationals,1756,90,20,89,405,2360
+VIC,AF,28874,3,"RYAN, Scott",Liberal,857,89,8,80,227,1261
+VIC,AF,28876,4,"PATERSON, James",Liberal,1010,90,15,94,258,1467
+VIC,AF,28877,5,"HUME, Jane",Liberal,661,68,8,75,212,1024
+VIC,AF,28878,6,"OKOTEL, Karina",Liberal,581,47,7,55,113,803
+VIC,AF,28879,7,"TRELOAR, Rebecca",The Nationals,715,53,8,49,170,995
+VIC,AG,29695,0,AG Ticket Votes,"Shooters, Fishers and Farmers",26939,1821,354,1692,3551,34357
+VIC,AG,28856,1,"WILSON, Jake","Shooters, Fishers and Farmers",1685,120,21,113,232,2171
+VIC,AG,28858,2,"CONSTANTINOU, Ethan","Shooters, Fishers and Farmers",109,3,1,6,22,141
+VIC,AH,29692,0,AH Ticket Votes,Liberal Democrats,41742,3292,671,3407,4668,53780
+VIC,AH,28625,1,"SPENDER, Duncan",Liberal Democrats,1197,102,18,72,165,1554
+VIC,AH,28628,2,"LIMBRICK, David",Liberal Democrats,118,18,2,8,21,167
+VIC,AI,29691,0,AI Ticket Votes,Rise Up Australia Party,7532,421,96,363,873,9285
+VIC,AI,28499,1,"NALLIAH, Daniel",Rise Up Australia Party,642,39,11,23,101,816
+VIC,AI,28501,2,"CRESTANI, Rosalie",Rise Up Australia Party,53,5,1,1,5,65
+VIC,AJ,29706,0,AJ Ticket Votes,Australian Progressives,1215,112,18,78,189,1612
+VIC,AJ,29155,1,"KNIGHT, David",Australian Progressives,298,27,6,17,28,376
+VIC,AJ,29156,2,"GILMORE, Josh",Australian Progressives,56,4,1,6,9,76
+VIC,AK,29674,0,AK Ticket Votes,The Greens,262487,25462,3761,21040,27132,339882
+VIC,AK,28083,1,"DI NATALE, Richard",The Greens,26837,2594,271,2488,3863,36053
+VIC,AK,28085,2,"RICE, Janet",The Greens,1489,162,18,143,186,1998
+VIC,AK,28086,3,"COLEMAN, Misha",The Greens,333,32,5,27,33,430
+VIC,AK,28087,4,"KLEIN, Elise",The Greens,218,24,6,31,24,303
+VIC,AK,28088,5,"CRABB, Anna",The Greens,382,58,5,49,68,562
+VIC,AK,28089,6,"SEARLE, James",The Greens,85,13,3,7,15,123
+VIC,AK,28091,7,"MINIFIE, Tasma",The Greens,71,4,2,13,14,104
+VIC,AK,28092,8,"ALDEN, Jennifer",The Greens,117,14,2,4,11,148
+VIC,AK,28093,9,"CAMERON, Judy",The Greens,77,12,3,16,13,121
+VIC,AK,28094,10,"SEKHON, Gurm",The Greens,102,11,2,9,13,137
+VIC,AK,28095,11,"MAGUIRE-ROSIER, Josephine",The Greens,53,15,1,6,5,80
+VIC,AK,28096,12,"READ, Rose",The Greens,384,48,6,42,78,558
+VIC,AL,29697,0,AL Ticket Votes,Australian Sex Party,38819,3820,688,2458,3458,49243
+VIC,AL,29183,1,"DOIG, Meredith",Australian Sex Party,3275,310,42,203,354,4184
+VIC,AL,29184,2,"MULCAHY, Amy",Australian Sex Party,538,59,8,37,59,701
+VIC,UG,29430,1,"JUHASZ, Stephen",Independent,217,16,2,5,27,267
+VIC,UG,29523,2,"ARASU, Karthik",Independent,387,15,5,15,17,439
+VIC,UG,29154,3,"HALL, Dennis",Independent,62,4,0,4,9,79
+VIC,UG,29587,4,"SPASOJEVIC, Dana",Independent,46,2,2,3,15,68
+VIC,UG,29272,5,"KARAGIANNIDIS, John",Independent,72,5,1,4,6,88
+VIC,UG,29524,6,"LUTZ, Geoff",Independent,45,2,0,0,4,51
+VIC,UG,28839,7,"MULL, Allan",Independent,213,5,1,11,26,256
+VIC,UG,29590,8,"RYAN, Chris",Independent,72,5,1,8,15,101
+VIC,UG,29531,9,"VADARLIS, Eric",Independent,256,16,1,17,27,317
+VIC,UG,29423,10,"DICKENSON, Mark Francis",Independent,65,4,2,4,10,85
+VIC,UG,29434,11,"SHMUEL, Immanuel",Independent,111,10,0,7,31,159
+VIC,UG,28823,12,"FLOYD, Glenn",Independent,46,1,0,5,12,64
+VIC,UG,28356,13,"URIE, Meredith",Independent,428,18,4,18,35,503
+VIC,UG,27976,14,"NYE, Trevor William",Independent,169,4,2,4,20,199
+VIC,UG,29403,15,"HAWKS, Peter John",Independent,65,2,0,7,6,80
+VIC,UG,28551,16,"BESLIS, Christopher",Independent,79,4,2,8,11,104
+WA,A,29822,0,A Ticket Votes,Christian Democratic Party (Fred Nile Group),9628,1002,186,613,837,12266
+WA,A,29437,1,"IMISIDES, Mark David",Christian Democratic Party (Fred Nile Group),1095,117,26,43,88,1369
+WA,A,29440,2,"READ, Philip Campbell",Christian Democratic Party (Fred Nile Group),101,14,2,3,13,133
+WA,B,29803,0,B Ticket Votes,"Shooters, Fishers and Farmers",18049,2267,327,1282,1563,23488
+WA,B,28400,1,"SKERRITT, Andrew","Shooters, Fishers and Farmers",1207,142,29,78,116,1572
+WA,B,28401,2,"WILLIAMSON, Ross","Shooters, Fishers and Farmers",205,31,3,20,24,283
+WA,C,29812,0,C Ticket Votes,Nick Xenophon Team,20187,1352,138,1340,2969,25986
+WA,C,28527,1,"BOLTON, Luke",Nick Xenophon Team,2743,161,16,132,384,3436
+WA,C,28528,2,"BOVELL, Michael",Nick Xenophon Team,184,17,0,7,26,234
+WA,D,29808,0,D Ticket Votes,Australian Labor Party,299899,25711,4260,14298,24982,369150
+WA,D,28516,1,"LINES, Sue",Australian Labor Party,7902,678,121,405,1096,10202
+WA,D,28517,2,"STERLE, Glenn",Australian Labor Party,540,82,25,44,77,768
+WA,D,28518,3,"DODSON, Patrick",Australian Labor Party,1500,107,11,81,208,1907
+WA,D,28519,4,"PRATT, Louise",Australian Labor Party,1916,176,27,126,319,2564
+WA,D,28520,5,"REED, Mark",Australian Labor Party,456,68,15,39,69,647
+WA,D,28521,6,"BOWERS, Susan",Australian Labor Party,286,41,10,17,47,401
+WA,D,28522,7,"ONORATO, Mia",Australian Labor Party,351,43,8,26,46,474
+WA,E,29797,0,E Ticket Votes,Citizens Electoral Council,1473,142,30,86,109,1840
+WA,E,28098,1,"ROBINSON, Jean",Citizens Electoral Council,148,13,5,8,12,186
+WA,E,28099,2,"SUDHOLZ, Judy",Citizens Electoral Council,18,3,1,0,1,23
+WA,F,29817,0,F Ticket Votes,The Nationals,25864,2372,187,1220,2707,32350
+WA,F,29189,1,"MUIR, Kado",The Nationals,1154,108,7,64,192,1525
+WA,F,29190,2,"FARDELL, Nick",The Nationals,268,25,2,15,41,351
+WA,F,29191,3,"RE, Elizabeth",The Nationals,301,27,1,22,41,392
+WA,G,29804,0,G Ticket Votes,Socialist Alliance,1298,169,23,72,91,1653
+WA,G,28341,1,"EMANUEL, Kamala",Socialist Alliance,196,19,1,5,14,235
+WA,G,28342,2,"DOHERTY, Seamus",Socialist Alliance,29,5,2,5,3,44
+WA,G,28343,3,"IQBAL, Farida",Socialist Alliance,43,6,0,4,4,57
+WA,H,29824,0,H Ticket Votes,Derryn Hinch's Justice Party,7251,613,64,439,1070,9437
+WA,H,29604,1,"HIDE, Nicki",Derryn Hinch's Justice Party,434,43,8,23,54,562
+WA,H,29605,2,"HIGGINS, Rachael",Derryn Hinch's Justice Party,47,4,0,2,14,67
+WA,I,29818,0,I Ticket Votes,Palmer United Party,3536,362,87,172,200,4357
+WA,I,29193,1,"WANG, Zhenya Dio",Palmer United Party,498,37,5,20,35,595
+WA,I,29194,2,"KRUGER, Jacque",Palmer United Party,33,2,1,1,3,40
+WA,J,29800,0,J Ticket Votes,The Greens (WA),99441,12102,1594,6105,7305,126547
+WA,J,28246,1,"LUDLAM, Scott",The Greens (WA),11786,1334,127,887,1397,15531
+WA,J,28247,2,"SIEWERT, Rachel",The Greens (WA),593,93,11,42,104,843
+WA,J,28248,3,"STEELE-JOHN, Jordon",The Greens (WA),118,9,1,7,11,146
+WA,J,28249,4,"JENKINSON, Samantha",The Greens (WA),257,36,6,22,33,354
+WA,J,28250,5,"BALDOCK, Michael",The Greens (WA),104,7,2,3,6,122
+WA,J,28251,6,"ISMAIL, Rai",The Greens (WA),182,31,2,12,27,254
+WA,K,29815,0,K Ticket Votes,Animal Justice Party,8962,1159,168,515,1019,11823
+WA,K,28831,1,"LOVE, Katrina",Animal Justice Party,590,69,18,27,97,801
+WA,K,28834,2,"SUTTON, Alicia",Animal Justice Party,43,9,0,1,10,63
+WA,L,29801,0,L Ticket Votes,Mature Australia,1798,123,20,107,287,2335
+WA,L,28270,1,"DONALD, Stuart",Mature Australia,241,17,3,8,28,297
+WA,L,28271,2,"BRADSHAW, Patti",Mature Australia,47,4,0,0,4,55
+WA,M,29799,0,M Ticket Votes,The Arts Party,2081,268,38,136,181,2704
+WA,M,28264,1,"BURATTI, Robert",The Arts Party,233,25,3,14,21,296
+WA,M,28265,2,"TAYLOR, Robert Kenneth Leslie",The Arts Party,23,6,0,1,4,34
+WA,N,29819,0,N Ticket Votes,Australian Cyclists Party,1712,154,20,143,251,2280
+WA,N,29197,1,"MAH, Peter",Australian Cyclists Party,254,18,5,17,40,334
+WA,N,29198,2,"HOWARD, Christopher John",Australian Cyclists Party,50,4,0,1,10,65
+WA,O,29802,0,O Ticket Votes,Renewable Energy Party,2986,392,45,268,423,4114
+WA,O,28272,1,"SCHWINDT, Pedro",Renewable Energy Party,328,46,2,12,46,434
+WA,O,28273,2,"SUNDBLADH, Camilla",Renewable Energy Party,51,8,1,5,4,69
+WA,P,29807,0,P Ticket Votes,Australian Liberty Alliance,11322,917,139,624,875,13877
+WA,P,28523,1,"ROBINSON, Debbie",Australian Liberty Alliance,955,65,12,47,153,1232
+WA,P,28524,2,"HERCOCK, Marion",Australian Liberty Alliance,41,8,1,5,4,59
+WA,Q,29805,0,Q Ticket Votes,Rise Up Australia Party,2586,253,35,144,304,3322
+WA,Q,28402,1,"HARDWICK, Anthony",Rise Up Australia Party,261,24,6,14,34,339
+WA,Q,28403,2,"MUNDY, Sheila",Rise Up Australia Party,29,1,1,0,3,34
+WA,R,29816,0,R Ticket Votes,Pauline Hanson's One Nation,40589,4213,679,2733,4334,52548
+WA,R,29186,1,"CULLETON, Rodney Norman",Pauline Hanson's One Nation,1651,173,29,99,212,2164
+WA,R,29187,2,"GEORGIOU, Peter",Pauline Hanson's One Nation,124,10,1,7,16,158
+WA,R,29188,3,"CULLETON, Ioanna",Pauline Hanson's One Nation,121,12,2,5,16,156
+WA,S,29823,0,S Ticket Votes,Marijuana (HEMP) Party/Australian Sex Party,17685,2729,486,973,1164,23037
+WA,S,29607,1,"BALDERSTONE, Michael",Marijuana (HEMP) Party,1177,163,33,66,94,1533
+WA,S,29608,2,"HURLEY, James",Australian Sex Party,366,46,6,23,36,477
+WA,T,29813,0,T Ticket Votes,Democratic Labour Party (DLP),7238,782,144,370,453,8987
+WA,T,28804,1,"BOVE, Fernando",Democratic Labour Party (DLP),301,23,2,12,16,354
+WA,T,28807,2,"KIERNAN, Troy",Democratic Labour Party (DLP),50,6,2,3,3,64
+WA,U,29821,0,U Ticket Votes,Health Australia Party,3324,380,52,189,362,4307
+WA,U,29360,1,"TILBURY, Samantha",Health Australia Party,306,34,7,17,41,405
+WA,U,29395,2,"FARGHER, Sara",Health Australia Party,37,4,1,2,7,51
+WA,V,29810,0,V Ticket Votes,,472,56,7,32,69,636
+WA,V,28864,1,"PAULL, Stuey",,155,8,4,9,9,185
+WA,V,28865,2,"MORRIS, Gary J",,94,6,1,23,4,128
+WA,W,29814,0,W Ticket Votes,Australian Christians,17064,1337,169,599,1434,20603
+WA,W,28821,1,"CAMERON, Lindsay",Australian Christians,1100,70,8,49,120,1347
+WA,W,28825,2,"YOUNG, Jacky",Australian Christians,95,11,1,3,16,126
+WA,X,29811,0,X Ticket Votes,Liberal,408691,31829,3579,22788,43983,510870
+WA,X,28493,1,"CORMANN, Mathias",Liberal,7561,677,78,536,1818,10670
+WA,X,28494,2,"CASH, Michaelia",Liberal,904,97,8,81,293,1383
+WA,X,28495,3,"SMITH, Dean",Liberal,410,60,5,37,73,585
+WA,X,28496,4,"REYNOLDS, Linda",Liberal,539,62,6,42,81,730
+WA,X,28497,5,"BACK, Chris",Liberal,277,33,3,28,89,430
+WA,X,28500,6,"JOHNSTON, David",Liberal,517,70,9,51,114,761
+WA,X,28502,7,"INGRAM, Sheridan",Liberal,318,31,4,24,73,450
+WA,Y,29798,0,Y Ticket Votes,Australia First Party,2212,214,36,145,204,2811
+WA,Y,28153,1,"VICKERY, Lyn",Australia First Party,121,17,1,8,16,163
+WA,Y,28155,2,"McREA, Brian",Australia First Party,24,1,1,1,4,31
+WA,Z,29806,0,Z Ticket Votes,Liberal Democrats,8153,768,100,580,584,10185
+WA,Z,28514,1,"KLASS, Graeme Michael",Liberal Democrats,388,44,7,28,36,503
+WA,Z,28515,2,"WHITTLE, Connor",Liberal Democrats,61,12,1,5,4,83
+WA,AA,29820,0,AA Ticket Votes,VOTEFLUX.ORG | Upgrade Democracy!,812,105,10,46,131,1104
+WA,AA,29200,1,"THOMAS, Richard",VOTEFLUX.ORG | Upgrade Democracy!,200,17,3,11,19,250
+WA,AA,29201,2,"CONNOLLY, Mark",VOTEFLUX.ORG | Upgrade Democracy!,31,2,2,0,1,36
+WA,AB,29809,0,AB Ticket Votes,Family First Party,6351,706,142,378,645,8222
+WA,AB,28525,1,"ROSE, Linda",Family First Party,354,33,13,20,30,450
+WA,AB,28526,2,"HENG, Henry",Family First Party,37,4,1,8,7,57
+WA,UG,28097,1,"JONES, Kai",Independent,254,21,3,14,35,327
+WA,UG,28279,2,"MOODY, Tammara",Australian Antipaedophile Party,76,8,2,4,17,107
+WA,UG,28188,3,"MATHESON, Julie",Independent,1186,49,8,26,92,1361
+WA,UG,29356,4,"CASTIEAU, Peter",Independent,158,13,2,8,15,196
+WA,UG,29401,5,"HODDINOTT, Susan",Katter's Australian Party,44,9,0,7,16,76
+WA,UG,29428,6,"RAMSAY, Norm",Independent,87,7,0,6,17,117

@@ -1,0 +1,102 @@
+{% extends './index.html' %}
+{% block title %} Sampler {% endblock %}
+{% block head %}
+    {{ super() }}
+    <link href="{{ url_for('static', filename='css/table.css') }}" rel="stylesheet">
+{% endblock %}
+{% block main %}
+    <div class="index-content" {% if data.items  %} {% else %} style="height: 680px" {% endif %} >
+        <div class="navbar navbar-default" style="margin-bottom: 0">
+            <div class="navbar-header">
+              <label class="navbar-brand">Sampler Jobs</label>
+            </div>
+            <div role="search" class="navbar-form form-inline" style="margin-right: 20px;">
+              <button id="addSampler" class="btn btn-block btn-lg btn-primary" style="padding: 8px 10px;">Run Sampler Job</button>
+            </div>
+        </div>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+                <th>Job Name</th>
+                <th>Job Type</th>
+                <th>Status</th>
+                <th>Seed</th>
+                <th>Increment</th>
+                <th>State</th>
+                <th>Operate</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% if data.items %}
+              {% for item in data.items %}
+                <tr>
+                    <td>{{ item.job_name }}</td>
+                    <td>{{ item.job_type }}</td>
+                    <td>{{ item.status }}</td>
+                    <td>{{ item.seed }}</td>
+                    <td>{{ item.increment }}</td>
+                    <td>{{ item.state }}</td>
+                    <td>
+                        <button class="sampler_edit btn btn-info" data-id="{{ item.job_id }}">Edit</button>
+                        <button class="sampler_audit btn btn-warning" data-id="{{ item.job_id }}">Audit</button>
+                    </td>
+                </tr>
+              {% endfor %}
+          {% else %}
+              <tr>
+                <td colspan="6">No data</td>
+              </tr>
+          {% endif %}
+          </tbody>
+        </table>
+        <div class="pagination">
+          <ul>
+            <li class="previous" {% if not data.has_prev %} class="disabled"{% endif %}>
+              <a  href="{% if data.has_prev %}/sampler?page={{ data.prev_num }}{% else %}#{% endif %}" class="fui-arrow-left"></a>
+            </li>
+            {% for p in data.iter_pages() %}
+                {% if p %}
+                    {% if p == data.page %}
+                    <li class="active">
+                        <a href="/sampler?page={{p}}">{{ p }}</a>
+                    </li>
+                    {% else %}
+                    <li>
+                        <a href="/sampler?page={{p}}">{{ p }}</a>
+                    </li>
+                    {% endif %}
+                {% else %}
+                <li class="disabled"><a href="#">…</a></li>
+                {% endif %}
+            {% endfor %}
+            <li class="next" {% if not data.has_next %} class="disabled"{% endif %}>
+              <a href="{% if data.has_next %}/sampler?page={{ data.next_num }}{% else %}#{% endif %}" class="fui-arrow-right"></a>
+            </li>
+          </ul>
+        </div>
+    </div>
+{% endblock %}
+
+{% block footer %}
+    <script>
+    $(function(){
+        $('#loading').modal('hide')
+        $('#addSampler').click(function (e) {
+            $('#loading').modal('show')
+            $('.index-content').load('/addSampler')
+        })
+        $('.sampler_audit').click(function (e) {
+            $('#loading').modal('show')
+            var id = $(this).data('id')
+            console.log(id)
+            $('.index-content').load('/addAudit?job_id='+id)
+        })
+        $('.sampler_edit').click(function (e) {
+            $('#loading').modal('show')
+            var id = $(this).data('id')
+            console.log(id)
+            $('.index-content').load('/info?job_id='+id)
+        })
+    })
+    </script>
+{% endblock %}

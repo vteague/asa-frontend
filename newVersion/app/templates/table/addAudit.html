@@ -1,0 +1,87 @@
+{% block head %}
+<link href="{{ url_for('static', filename='css/table.css') }}" rel="stylesheet">
+{% endblock %}
+<div class="row-form index-content" style="padding-left: 20px; padding-top: 20px;height: 780px;">
+    <form class="form-inline" id="audit">
+        <input type="hidden" value="{{ job.job_id }}" name="jobId">
+      <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">Job Name:</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control"  name="jobName" placeholder="name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">State:</label>
+        <div class="col-sm-10">
+            <select class="form-control" name="state">
+                <option value="ACT" {% if job.state == 'ACT' %} selected="selected" {% endif %}>
+                    ACT
+                </option>
+                <option value="NSW" {% if job.state == 'NSW' %} selected="selected" {% endif %}>
+                    NSW
+                </option>
+                <option value="NT" {% if job.state == 'NT' %} selected="selected" {% endif %}>
+                    NT
+                </option>
+                <option value="QLD" {% if job.state == 'QLD' %} selected="selected" {% endif %}>
+                    QLD
+                </option>
+                <option value="TAS" {% if job.state == 'TAS' %} selected="selected" {% endif %}>
+                    TAS
+                </option>
+                <option value="VIC" {% if job.state == 'VIC' %} selected="selected" {% endif %}>
+                    VIC
+                </option>
+                <option value="WA" {% if job.state == 'WA' %} selected="selected" {% endif %}>
+                    WA
+                </option>
+            </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">Random Seed:</label>
+        <div class="col-sm-10">
+          <input name="seed" type="text" class="form-control" placeholder="Random Seed" value="{{ job.seed }}">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">Audit Increment Size:</label>
+        <div class="col-sm-10">
+          <input name="increment" type="text" class="form-control" placeholder="Audit Increment Size" value="{{ job.increment }}">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-11" style="display: flex">
+          <button id="cancel" type="button" class="btn btn-danger">Cancel</button>
+          <button type="button" id="submit" class="btn btn-primary" style="right: 40px;position: absolute;">Run Audit</button>
+        </div>
+      </div>
+    </form>
+</div>
+{% block footer %}
+    <script>
+    $(function(){
+        $('#cancel').click(function (e) {
+            $('body').load('/sampler')
+        })
+        
+        $('#submit').click(function() {
+            $.ajax({
+                url: '/addAudit',
+                data: $('#audit').serialize(),
+                type: 'POST',
+                success: function(response) {
+                    if(!response.succ) {
+                        $('body').load('/audit') //创建成功返回列表页面
+                    }else{
+                        //弹出错误
+                    }
+                },
+                error: function(error) {
+                    console.log(error);
+                }
+            });
+        });
+    })
+    </script>
+{% endblock %}

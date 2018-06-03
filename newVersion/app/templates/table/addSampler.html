@@ -1,0 +1,85 @@
+{% block head %}
+<link href="{{ url_for('static', filename='css/table.css') }}" rel="stylesheet">
+{% endblock %}
+<div class="row-form index-content" style="padding-left: 20px; padding-top: 20px;height: 780px">
+    <form id="sampler" class="form-inline">
+      <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">Sampler Job Name:</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" name="jobName" placeholder="name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">State:</label>
+        <div class="col-sm-10">
+            <select class="form-control" name="state">
+                <option value="ACT">
+                    ACT
+                </option>
+                <option value="NSW">
+                    NSW
+                </option>
+                <option value="NT">
+                    NT
+                </option>
+                <option value="QLD">
+                    QLD
+                </option>
+                <option value="TAS">
+                    TAS
+                </option>
+                <option value="VIC">
+                    VIC
+                </option>
+                <option value="WA">
+                    WA
+                </option>
+            </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">Random Seed:</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" name="seed" placeholder="Random Seed">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">Audit Increment Size:</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" name="increment" placeholder="Audit Increment Size">
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-11" style="display: flex">
+          <button id="cancel" type="button" class="btn btn-danger">Cancel</button>
+          <button type="button" id="submit" class="btn btn-primary" style="right: 40px;position: absolute;">Run Sampler</button>
+        </div>
+      </div>
+    </form>
+</div>
+{% block footer %}
+    <script>
+    $(function(){
+        $('#cancel').click(function (e) {
+            $('body').load('/sampler')
+        })
+        $('#submit').click(function() {
+            $.ajax({
+                url: '/addSampler',
+                data: $('#sampler').serialize(),
+                type: 'POST',
+                success: function(response) {
+                    if(response.succ) {
+                        $('body').load('/sampler') //创建成功返回列表页面
+                    }else{
+                        //弹出错误
+                    }
+                },
+                error: function(error) {
+                    console.log(error);
+                }
+            });
+        });
+    })
+    </script>
+{% endblock %}

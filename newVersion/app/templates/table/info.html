@@ -1,0 +1,192 @@
+{% block head %}
+    <link href="{{ url_for('static', filename='css/table.css') }}" rel="stylesheet">
+{% endblock %}
+{% block main %}
+    <div class="index-content">
+        <form id="sampler" class="container-fluid" method="post">
+            <input type="hidden" name="id" value="{{ data.sampler.items[0].id }}">
+            <div class="row">
+                <div class="col-xs-10 col-md-10">
+                    <h6>Fill in preferences for paper ballot</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-md-4">ElectorateNm:</div>
+                <div class="col-xs-12 col-md-8">{{ data.sampler.items[0].electorate_nm }}</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-md-4">VoteCollectionPointNm:</div>
+                <div class="col-xs-12 col-md-8">{{ data.sampler.items[0].vote_collection_point_nm }}</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-md-4">VoteCollectionPoint:</div>
+                <div class="col-xs-12 col-md-8">{{ data.sampler.items[0].vote_collection_point_id }}</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-md-4">BatchNo:</div>
+                <div class="col-xs-12 col-md-8">{{ data.sampler.items[0].batch_no }}</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-md-4">PaperNo:</div>
+                <div class="col-xs-12 col-md-8">{{ data.sampler.items[0].paper_no }}</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-12" style="margin-top: 40px;">
+                    <div class="navbar navbar-default" style="margin-bottom: 0;background-color: #34495e;border-bottom-left-radius: 0;border-bottom-right-radius: 0;display: flex" >
+                        <div class="navbar-header">
+                          <label class="navbar-brand" style="color: #ffffff;">Above the line</label>
+                        </div>
+                        <div class="col-xs-2 col-md-2">
+                            <label style="color: #ffffff">Auditing Ballot {{ data.sampler.page }}/{{ data.sampler.total }}</label>
+                        </div>
+                    </div>
+                    <div style="overflow:scroll;">
+                        <table class="table table-bordered audit-table" align="center">
+                            <thead>
+                                <tr>
+                                    {% for item in data.above.header %}
+                                         <th>
+                                            {% if item.name != 'UG' %}
+                                                {% if item.parry != none %}
+                                                    {{ item.parry }}
+                                                {% else %}
+                                                    -
+                                                {% endif %}
+                                            {% endif %}
+                                        </th>
+                                    {% endfor %}
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    {% for item in data.above.body %}
+                                        <td>
+                                            {% if item.value != -1 %}
+                                            <label>PARTY</label>
+                                            <input name="preferences[{{ item.dataIndex }}]" data-index="{{ item.dataIndex }}" type="text" value="{{ item.value }}" />
+                                            {% else %}
+                                            <input name="preferences[{{ item.dataIndex }}]" data-index="{{ item.dataIndex }}" type="hidden" value="" />
+                                            {% endif %}
+                                        </td>
+                                    {% endfor %}
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-12" style="margin-top: 40px;">
+                    <div class="navbar navbar-default" style="margin-bottom: 0;background-color: #34495e;border-bottom-left-radius: 0;border-bottom-right-radius: 0">
+                        <div class="navbar-header">
+                          <label class="navbar-brand" style="color: #ffffff;">Below the line</label>
+                        </div>
+                    </div>
+                    <div style="overflow:scroll;">
+                        <table class="table table-bordered audit-table" align="center" >
+                            <thead>
+                                <tr>
+                                    {% for item in data.above.header %}
+                                        {% if item.name != 'UG' %}
+                                            <th>{{ item.parry }}</th>
+                                        {% else %}
+                                            <th>{{ item.name }}</th>
+                                        {% endif %}
+                                    {% endfor %}
+                                </tr>
+                            </thead>
+                            <tbody>
+                            {% for item in range(0, data.below.number) %}
+                                <tr>
+                                    {% for parry in data.above.header %}
+                                        <td>
+                                            {% if data.below.data[parry.parry][item] is defined %}
+                                            <label>{{ data.below.data[parry.parry][item].name }}</label>
+                                            <input type="text" name="preferences[{{ data.below.data[parry.parry][item].dataIndex }}]" data-index="{{ data.below.data[parry.parry][item].dataIndex }}"  value="{{ data.below.data[parry.parry][item].preferences }}" />
+                                            {% else %}
+                                                {{  data.below.data[parry.parry][item] }}
+                                            {% endif %}
+                                        </td>
+                                    {% endfor %}
+                                </tr>
+                            {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6 col-md-6">
+                    {% if data.sampler.has_prev %}
+                        <button type="button" id="previous" data-src="/info?job_id={{ data.jobId }}&page={{ data.sampler.prev_num }}" class="btn btn-inverse">Back to the previous ballot</button>
+                    {% else %}
+                        <button id="cancel" type="button" class="btn btn-danger">Cancel</button>
+                    {% endif %}
+                </div>
+                <div class="col-xs-6 col-md-6" align="right">
+                    {% if data.sampler.has_next %}
+                        <button type="button" class="btn btn-inverse" data-src="/info?job_id={{ data.jobId }}&page={{ data.sampler.next_num }}" id="next">Confirm to enter next ballot</button>
+                    {% else %}
+                        <button type="button" class="btn btn-success" id="confirm">Confirm</button>
+                    {% endif %}
+                </div>
+            </div>
+        </form>
+    </div>
+{% endblock %}
+{% block footer %}
+    <script>
+    var src = null
+    $(function(){
+        $('#loading').modal('hide')
+    })
+    $('body').on('click', '#cancel',function () {
+            $('body').load('/sampler')
+    })
+    $('body').on('click', '#next',function () {
+            var data = $('#sampler').serializeJSON();
+            console.log(data)
+            submit(data)
+    })
+    $('body').on('click', '#confirm',function () {
+            var data = $('#sampler').serializeJSON();
+            console.log(data)
+            submit(data)
+    })
+    $('body').on('click', '.btn',function () {
+            src = $(this).data('src')
+    })
+    $('body').on('click', '#previous',function () {
+       src = $('#previous').data('src')
+        var data = $('#sampler').serializeJSON();
+        submit(data)
+    })
+    function submit(data){
+
+       $.ajax({
+            url: '/info',
+            data: data,
+            contentType: "application/json",
+            type: 'POST',
+            dataType: "json",
+            success: function(response) {
+                console.log(response)
+                console.log(src)
+                if(response.succ) {
+                    if(src != "" && src != undefined && src != null) {
+                        $('.index-content').load(src) //创建成功返回列表页面
+                    }else {
+                        alert(response.message)
+                        $('body').load('/sampler')
+                    }
+                }else{
+                    //弹出错误
+                }
+            },
+            error: function(error) {
+                console.log(error);
+            }
+        });
+    }
+    </script>
+{% endblock %}

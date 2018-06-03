@@ -1,0 +1,25 @@
+.table-block {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+.table-block .palette{
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    display: flex;
+    padding-left: 40px;
+}
+.table-block .palette a {
+    width: 130px;
+    height: 40px;
+    margin-left: 75%;
+}
+.audit-table td input {
+    width: 40px;
+}
+.row-form .form-group {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}

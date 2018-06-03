@@ -1,0 +1,59 @@
+body{
+    height: 100%;
+}
+.navbar-inverse {
+    flex-flow: column nowrap;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.navbar-collapse {
+    flex-grow: 0;
+    padding-right: 0;
+}
+.index-header {
+    height: 55px;
+    background-color: #edf0f1;
+    margin-top: 10px;
+    border-radius: 6px;
+    display: flex;
+    margin-bottom: 30px;
+    padding-top: 6px;
+}
+.index-header .avatar {
+    position: absolute;
+    right: 30px;
+}
+.index-header .avatar img {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+}
+.index-header .info {
+    position: absolute;
+    right: 140px;
+}
+.index-header .info label ,.index-header .settings label {
+    font-size: 20px;
+}
+.index-header .info span {
+    top: 0;
+    background-color: red;
+    margin-left: 18px;
+    margin-top: 8px;
+}
+.index-header .settings {
+    position: absolute;
+    right: 95px;
+}
+
+.box {
+    display: flex;
+    padding-top: 10px;
+}
+.index-content {
+    background-color: #edf0f1;
+    border-radius: 6px;
+}
+.nav li {
+    width: 100%;
+}

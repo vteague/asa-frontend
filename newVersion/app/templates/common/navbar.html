@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block body %}
+    {% block navbar %}
+        <nav class="col-md-1 col-md-pull-9 navbar navbar-inverse navbar-expand-lg nav-stacked" role="navigation" >
+                <label class="navbar-brand active" href="#">Auditing</label>
+                <div class="collapse navbar-collapse" id="navbar-collapse-01">
+                  <ul class="nav navbar-nav mr-auto">
+                    <li {% if request.path == '/sampler' %}class="active"{% endif %}><a href="/sampler">Sampling</a></li>
+                    <li {% if request.path == '/audit' %}class="active"{% endif %}><a href="/audit" >Audit</a></li>                                    <li><a href="https://drive.google.com/file/d/1hOPr9UjleH1qDgJARD0EezcGyhnBYlfE/view?usp=sharing">Guide</a> </li>
+                   </ul>
+                </div><!-- /.navbar-collapse -->
+              </nav>
+    {% endblock %}
+{% endblock %}

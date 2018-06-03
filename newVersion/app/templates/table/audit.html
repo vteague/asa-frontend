@@ -1,0 +1,89 @@
+{% extends './index.html' %}
+{% block title %} Audit {% endblock %}
+{% block head %}
+    {{ super() }}
+    <link href="{{ url_for('static', filename='css/table.css') }}" rel="stylesheet">
+{% endblock %}
+{% block main %}
+    <div class="index-content" {% if data.items  %} {% else %} style="height: 680px" {% endif %}>
+        <div class="navbar navbar-default" style="margin-bottom: 0">
+            <div class="navbar-header">
+              <label class="navbar-brand">Audit Jobs</label>
+            </div>
+        </div>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+                <th>Job Name</th>
+                <th>Job Type</th>
+                <th>State</th>
+                <th>Seed</th>
+                <th>Status</th>
+                <th>Increment</th>
+                <th>Rounds</th>
+                <th>Ballots</th>
+                <th>Operate</th>
+            </tr>
+          </thead>
+          <tbody>
+          {% if data.items %}
+              {% for item in data.items %}
+                <tr>
+                    <td>{{ item.job_name }}</td>
+                    <td>{{ item.job_type }}</td>
+                    <td>{{ item.state }}</td>
+                    <td>{{ item.seed }}</td>
+                    <td>{{ item.status }}</td>
+                    <td>{{ item.increment }}</td>
+                    <td>{{ item.rounds }}</td>
+                    <td>{{ item.ballots }}</td>
+                    <td>
+                        {% if item.isDownload %}
+                        <a href="{{ item.url }}" class="sampler_edit btn btn-info" data-id="{{ item.job_id }}">Download</a>
+                        {% else %}
+                            <label class="sampler_edit btn btn-info"> No download</label>
+                        {% endif %}
+                    </td>
+                </tr>
+              {% endfor %}
+          {% else %}
+              <tr>
+                <td colspan="9">No data</td>
+              </tr>
+          {% endif %}
+          </tbody>
+        </table>
+    <div class="pagination">
+      <ul>
+        <li class="previous" {% if not data.has_prev %} class="disabled"{% endif %}>
+          <a  href="{% if data.has_prev %}/audit?page={{ p }}{% else %}#{% endif %}" class="fui-arrow-left"></a>
+        </li>
+        {% for p in data.iter_pages() %}
+            {% if p %}
+                {% if p == data.page %}
+                <li class="active">
+                    <a href="/audit?page={{p}}">{{ p }}</a>
+                </li>
+                {% else %}
+                <li>
+                    <a href="/audit?page={{p}}">{{ p }}</a>
+                </li>
+                {% endif %}
+            {% else %}
+            <li class="disabled"><a href="#">…</a></li>
+            {% endif %}
+        {% endfor %}
+        <li class="next" {% if not data.has_next %} class="disabled"{% endif %}>
+          <a href="{% if data.has_next %}/audit?page={{ p }}{% else %}#{% endif %}" class="fui-arrow-right"></a>
+        </li>
+      </ul>
+    </div>
+    </div>
+{% endblock %}
+{% block footer %}
+    <script>
+    $(function(){
+
+    })
+    </script>
+{% endblock %}

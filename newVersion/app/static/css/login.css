@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(26, 188, 156);
+}
+
+.login-form {
+    width: 409px;
+    height:246px;
+    margin: 15% auto;
+}

@@ -1,0 +1,77 @@
+{% extends "layout.html" %}
+{% block title %} Login {% endblock %}
+{% block head %}
+    {{ super() }}
+    <link href="{{ url_for('static', filename='css/login.css') }}" rel="stylesheet">
+{% endblock %}
+{% block body %}
+    {% if message %}
+        <div class="alert alert-danger alert-dismissible" role="alert">
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <strong>Error!</strong> {{ message }}
+        </div>
+    {% endif %}
+    <form class="login-form" action="/login" method="post" >
+        <div class="form-group">
+            <input class="form-control login-field" name="username" type="text" value="{{ username }}" placeholder="Enter your name" />
+            <label class="login-field-icon fui-user"></label>
+        </div>
+        <div class="form-group">
+            <input class="form-control login-field" name="password" type="password" value="{{ password }}" placeholder="Password" />
+            <label class="login-field-icon fui-lock"></label>
+        </div>
+        <button class="btn btn-primary btn-lg btn-block" type="submit">Login</button>
+        <a class="login-link" href="javascript: ;" data-toggle="modal" id="sign" data-target="#sign-modal">Sign Up</a>
+    </form>
+
+    <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="sign-modal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Sign Up</h4>
+          </div>
+          <form class="modal-body" method="post" id="register">
+           <div class="alert alert-danger alert-dismissible" role="alert" data-dismiss="alert" id="register-error">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <strong>Error!</strong> <span id="message"></span>
+           </div>
+           <div class="form-group">
+                <input class="form-control login-field" name="username" type="text" placeholder="Accounts" />
+            </div>
+            <div class="form-group">
+                <input class="form-control login-field" name="password" type="password" placeholder="New Password" />
+            </div>
+          </form>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" id="submit">Sign Up</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+{% endblock %}
+{% block footer %}
+    <script>
+    $('#submit').click(function () {
+        var data = $('#register').serializeJSON();
+        $.ajax({
+            url: '/register',
+            data: data,
+            contentType: "application/json",
+            type: 'POST',
+            dataType: "json",
+            success: function(response) {
+                console.log(response)
+                if(response.succ) {
+                    $('#sign-modal').modal('hide')
+                }else{
+                    alert(response.message)
+                }
+            },
+            error: function(error) {
+                console.log(error);
+            }
+        });
+    })
+    </script>
+{% endblock %}
